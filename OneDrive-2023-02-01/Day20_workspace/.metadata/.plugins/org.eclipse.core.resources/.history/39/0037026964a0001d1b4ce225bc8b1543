@@ -1,0 +1,16 @@
+package character;
+
+public class Playable {
+	protected String name;
+	protected int hp;
+	public Playable(String name, int hp) {
+		this.name = name;
+		this.hp = hp;
+	}
+	public void status() {
+		System.out.printf("%s - (%d)\n", name, hp);
+	}
+	public void attack(Playable that) {
+		that.hp -= 5;
+	}
+}

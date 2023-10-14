@@ -1,0 +1,20 @@
+package main;
+
+public class FinalEX {
+	public static void main(String[] args) {
+		// 소스파일구조
+		// 패키지 - character
+		// - Playable : 상속하기 위한 최상위 클래스
+		//   필드 : 이름(name), 체력(hp)
+		//   동작 : 같은 Playable 객체에 대한 공격
+
+		// - Playable을 상속받는 Warrior, Wizard, Healer
+		//   1) Warrior
+		//     필드 : 추가되는 것 없음
+		//     동작 : 공격 - 대상의 체력을 20만큼 감소시킴
+		//   2) Wizard
+		//     필드 : MP가 추가됨
+		//     동작 : 공격 - 대상의 체력을 25만큼 감소시키고
+		//                자신의  MP가 10만큼 감소함
+	}
+}

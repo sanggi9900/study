@@ -1,0 +1,9 @@
+package myClass;
+
+public class Patient extends AbsHuman {
+	private String symptom;
+	public Patient(String name, String symptom) {
+		super(name); this.symptom = symptom;
+	}
+	public void introduce()
+}

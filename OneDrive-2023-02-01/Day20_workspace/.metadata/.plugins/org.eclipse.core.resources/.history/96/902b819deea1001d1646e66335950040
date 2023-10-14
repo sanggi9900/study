@@ -1,0 +1,6 @@
+package myClass;
+
+// 
+public interface Drivable {
+	String interfaceName = "Drivable";
+}

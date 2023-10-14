@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sup2.Sup2&apos; to &apos;ExceptionHandle&apos;&#x0D;&#x0A;- Original project: &apos;Supplement&apos;&#x0D;&#x0A;- Original element: &apos;sup2.Sup2&apos;&#x0D;&#x0A;- Renamed element: &apos;sup2.ExceptionHandle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Sup2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sup2{Sup2.java[Sup2" matchStrategy="1" name="ExceptionHandle" qualified="false" references="true" similarDeclarations="false" stamp="1675316755215" textual="false" version="1.0"/>
+</session>

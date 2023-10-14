@@ -1,0 +1,75 @@
+package myclass;
+
+public class Human {
+	private String name;
+	private int age;
+	private double height;
+	private double weight;
+	
+	public Human() { this("사람", 0, 0, 0); }
+	public Human(String name) { this(name, 0, 0 ,0); }
+	public Human(String name, int age, double height, double weight) {
+		this.name = name;
+		this.age = age;
+		this.height = height;
+		this.weight = weight;
+	}
+	
+	public String getName() { return name; }
+	public int getAge() { return age; }
+	public double getHeight() { return height; }
+	public double getWeight() { return weight; }
+	
+	public void introduce() { System.out.println("난 "+name+"이야!"); }
+	public void showInfo() {
+		System.out.printf("%s( %d, %.1f %.1f )\n", name, age, height, weight);
+	}
+	public void actionTo(Box that) {
+		// 상자 열기/닫기 결과를 보고할 수도 있음
+		if (that.getStatus()) that.close();
+		else that.open();
+	}
+	public void actionTo(Human that) {
+		that.age += 1;
+		System.out.println(that.name+"의 나이 증가!");
+	}
+	public boolean openOneBox(Box[] boxArray, String name) {
+		// 이 메서드가 작동해서, 연 상태로 만드는게 목적이면...
+		// actionTo는 호출하면 안됨
+		// -> actionTo는 상태에 따라 열거나 닫기 위한 메서드다.
+		for (int i = 0; i<boxArray.length; i += 1) {
+			if (name.compareTo(boxArray[i].getName()) == 0) {
+				actionTo(boxArray[i]);	//boxArray[i].open();
+				return true; // 반복도 함께 종료
+			}
+		}
+		System.out.println(name + "는(/은) 없습니다.");
+		return false;
+	}
+	public boolean openOneBox(Box[] boxArray, int index) {
+		if (index < 0 || index > boxArray.length) {
+			System.out.println((index+1)+"번째 서랍는(/은) 없습니다.");
+			return false;
+		}
+		else {
+			actionTo(boxArray[index]);	// 메서드 이용 가능
+			return true;
+		}
+	}
+	public void openAll( ?????? ) {
+		for (??????) {
+			????????(????)
+		}
+	} 
+	public void greetingTo(Human that) {
+		System.out.printf("안녕, %s님!\n", that.name);
+	}
+}
+
+
+
+
+
+
+
+

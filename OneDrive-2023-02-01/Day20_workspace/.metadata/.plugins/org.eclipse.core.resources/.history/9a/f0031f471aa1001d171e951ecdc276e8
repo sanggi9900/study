@@ -1,0 +1,23 @@
+package tech1;
+
+import test.Sample1;
+
+public class Static1 {
+	public static void main(String[] args) {
+		// static 키워드 : 객체를 만들지 않아도 쓸 수 있는 필드/메서드
+		// - 객체의 생성과 별개로 사용되고, 객체끼리 서로 공유하는 것으로 사용됨
+		// static 멤버변수(필드)
+		// - 객체끼리 서로 공유하는 변수
+		// - 
+		Sample1 sam1 = new Sample1(100);
+		System.out.println("저장된 값 : " + sam1);
+		sam1.setData(200);
+		System.out.println("저장된 값 : " + sam1);
+		System.out.println("5를 더할 경우 : " + (sam1.getData() + 5));
+		Sample1.check();
+		Sample1 sam2 = new Sample1(150);
+		Sample1.check();
+		Sample1 sam3 = new Sample1(150);
+		Sample1.check();
+	}
+}

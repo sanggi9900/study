@@ -1,0 +1,28 @@
+package tech1;
+
+abstract class Box {
+	protected String name;
+	protected boolean state;
+	// 생성자는 준비할 수 있고, 안할 수 있다.
+	// 준비하면, 무조건 호출해야 하고
+	// 준비안하면, 기본생성자가 자동으로 준비되니 호출하지 않아도 됨
+	// public Box(String name) { this.name = name; }
+	public void open() { state = true; }
+	public void close() { state = false; }
+	// 추상메서드 - 본문이 존재하지 않는 메서드 -> 오버라이딩을 무조건 해야 함
+	public abstract void check();
+}
+// 일반 클래스와 추상 클래스 문법은 교차해서 사용할 수 없으니 주의
+class BoxA extends Box {
+	private int data;
+	public BoxA(int data) {
+		this.data = data;
+	}
+}
+
+public class Abs1 {
+	public static void main(String[] args) {
+		
+		
+	}
+}

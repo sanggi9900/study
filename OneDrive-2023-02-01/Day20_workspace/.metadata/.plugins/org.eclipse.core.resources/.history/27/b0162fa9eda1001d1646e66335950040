@@ -1,0 +1,12 @@
+package myClass;
+
+public class Car implements Drivable {
+	private String name;
+	public Car(String name) {
+		this.name = name;
+	}
+	public void showInfo() {
+		
+	}
+	public void drive() {}
+}

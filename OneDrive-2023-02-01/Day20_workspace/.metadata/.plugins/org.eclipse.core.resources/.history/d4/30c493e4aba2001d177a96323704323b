@@ -1,0 +1,7 @@
+package tech1;
+
+public class AnonymousEX {
+	public static void main(String[] args) {
+		AbsHuman ghost = new AbsHuman("À¯·É") {}
+	}
+}

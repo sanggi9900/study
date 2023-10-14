@@ -1,0 +1,7 @@
+package character;
+
+public class Playable {
+	protected String name;
+	protected int hp;
+
+}

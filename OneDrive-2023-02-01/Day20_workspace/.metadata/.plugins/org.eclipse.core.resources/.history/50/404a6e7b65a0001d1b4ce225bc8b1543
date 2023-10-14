@@ -1,0 +1,8 @@
+package character;
+
+public class Healer extends Playable {
+	private int mp;
+	public Healer(String name, int hp, int mp) {
+		
+	}
+}

@@ -1,0 +1,15 @@
+package test;
+
+public class Sample1 {
+	private int data;
+	public Sample1(int data) {
+		this.data = data; 
+	}
+	public void setData(int data) {
+		this.data = data;
+	}
+	public int getData() {
+		return data;
+	}
+	public String toString() {}
+}

@@ -1,0 +1,9 @@
+package tech1;
+
+public class AbstractionEX {
+	public static void main(String[] args) {
+		Doctor doc1 = new Doctor("김치료", "내과");
+		Patient pat1 = new Patient("이환자", "감기");
+		
+	}
+}

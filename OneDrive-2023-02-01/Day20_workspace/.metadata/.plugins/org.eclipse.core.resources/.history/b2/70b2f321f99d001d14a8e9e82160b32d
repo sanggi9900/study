@@ -1,0 +1,27 @@
+package oop5;
+
+public class GenericEX {
+	public static void main(String[] args) {
+		// 많이 하는 상속방식
+		// - 일반 부모 클래스 + 제네릭 자식 클래스 
+		
+		GenBox<Integer> gBox1 = new GenBox<Integer>("정수상자");
+		GenBox<String> gBox2 = new GenBox<String>("문자열상자");
+		gBox1.showInfo(); // 정수상자이(/가) 닫혀 있습니다.
+		gBox2.showInfo(); // 문자열상자이(/가) 닫혀 있습니다.
+		gBox1.open(); // 정수상자을(/를) 엽니다.
+		gBox2.open(); // 문자열상자을(/를) 엽니다.
+		gBox1.showInfo(); // 정수상자 : null
+		gBox2.showInfo(); // 문자열상자 : null
+		gBox1.setData(100); // 정수상자 - 저장성공...
+		gBox2.setData("Apple"); // 문자열상자 - 저장성공...
+		gBox1.showInfo(); // 정수상자 : 100
+		gBox2.showInfo(); // 문자열상자 : Apple
+		gBox1.close(); // 정수상자을(/를) 닫습니다.
+		gBox2.close(); // 문자열상자을(/를) 닫습니다.
+		System.out.println("gBox1의 값 : " + gBox1.getData());
+		// gBox1의 값 : null
+		System.out.println("gBox2의 값 : " + gBox2.getData());
+		// gBox2의 값 : null
+	}
+}

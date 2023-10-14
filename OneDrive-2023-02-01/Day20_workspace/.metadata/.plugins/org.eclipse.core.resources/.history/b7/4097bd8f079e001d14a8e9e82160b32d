@@ -1,0 +1,7 @@
+package oop5;
+
+public class SupEX {
+	public static void main(String[] args) {
+		// Box 클래스에 대해서 진행하세요.
+	}
+}

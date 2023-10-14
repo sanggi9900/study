@@ -1,0 +1,7 @@
+package sup1;
+
+public class Sup3 {
+	public static void main(String[] args) {
+		// 람다식 : 익명객체를 만들기 위한 또다른 문법
+	}
+}

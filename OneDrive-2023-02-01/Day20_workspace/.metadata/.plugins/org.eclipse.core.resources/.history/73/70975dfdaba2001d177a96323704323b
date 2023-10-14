@@ -1,0 +1,17 @@
+package tech1;
+
+import test.AbsHuman;
+
+public class AnonymousEX {
+	public static void main(String[] args) {
+		AbsHuman ghost = new AbsHuman("À¯·É") {
+			
+		};
+		ghost.introduce();
+		ghost.report();
+	}
+	Drivable sled = new Drivable() {
+		
+	};
+	sled.drive();
+}

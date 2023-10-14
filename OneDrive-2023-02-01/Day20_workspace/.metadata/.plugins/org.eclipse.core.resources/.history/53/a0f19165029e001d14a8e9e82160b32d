@@ -1,0 +1,18 @@
+package oop5;
+
+class Cat {
+	private String name;
+	public Cat() { name = "고양이"; }
+	public void meow() { System.out.println("냐오오오옹!"); }
+}
+
+public class OOP14 {
+	public static void main(String[] args) {
+		// java.lang.Object 클래스
+		// - 모든 클래스의 최상위 부모클래스. 빼면 문제가 발생하니 빼면 안됨
+		// - 직접 "상속하는" 코드를 작성할 필요없이 자동으로 상속되는 클래스
+		// - 
+		Cat cat = new Cat();
+		cat.meow();
+	}
+}

@@ -1,0 +1,11 @@
+package oop6;
+
+public class CastingEX {
+	public static void main(String[] args) {
+		IntBox iBox1 = new IntBox("정수1", 100);
+		IntBox iBox2 = new IntBox("정수2", 200);
+		GenBox<Double> GenBox1 = new GenBox<Double>("실수", 3.14);
+		GenBox<String> GenBox1 = new GenBox<String>("단어", "App");
+		iBox1.showInfo()
+	}
+}

@@ -1,0 +1,24 @@
+package tech1;
+
+import myClass.Drivable;
+import test.AbsHuman;
+
+public class AnonymousEX {
+	public static void main(String[] args) {
+		AbsHuman ghost = new AbsHuman("유령") {
+			public void introduce() {
+				System.out.println("안녕하세요. " + "예의바른 " + name +"입니다.");
+			}
+			public void report() {
+				System.out.println("따로 만들어져 관리될 가치는 없습니다.");
+			}
+		};
+		ghost.introduce();
+		ghost.report();
+		Drivable sled = new Drivable() {
+			String model = 
+		};
+		sled.drive();
+		sled.stop();
+	}
+}

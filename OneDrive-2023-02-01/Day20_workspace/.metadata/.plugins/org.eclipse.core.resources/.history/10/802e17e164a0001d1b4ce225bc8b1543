@@ -1,0 +1,7 @@
+package character;
+
+public class Wizard {
+	private int mp;
+	public Wizard(String name, int hp, int mp) {}
+
+}

@@ -1,0 +1,76 @@
+package tech1;
+abstract class Animal {
+	protected String name;
+	protected String symptom;
+	public Animal(String name, String symptom) {
+		this.name = name;
+		this.symptom = symptom;
+	}
+	public String getSym() {
+		return symptom;
+	}
+	public void setSym(String state) {
+		symptom = state;
+	}
+}
+interface ActionList {
+	public void action1();
+}
+class Cat extends Animal implements ActionList {
+	public Cat(String name, String symp) {
+		super(name, symp);
+	}
+	public void action1() {
+		System.out.println(name + " : 야오오오옹!");
+	}
+}
+class Dog extends Animal implements ActionList {
+	public Dog(String name, String symp) {
+		super(name, symp);
+	}
+	public void action1() {
+		System.out.println(name + " : 왈왈왈!");
+	}
+}
+
+
+
+
+
+
+
+public class Interface2 {
+	public static void heal(Animal that) {
+		System.out.println(that.getSym());
+		that.setSym("치료중");
+		System.out.println(that.getSym());
+	}
+	public static void heal(ActionList that) {
+		System.out.println(that.action1());
+		that.setSym("치료중");
+		System.out.println(that.getSym());
+	}
+	public static void main(String[] args) {
+		// 추상클래스의 제한사항
+		// - 너무 많은 메서드를 제공하면 업캐스팅되어도
+		//   메서드들이 제한없이 사용된다.
+		Cat cat1 = new Cat("개냥이", "감기");
+		Dog dog1 = new Dog("고아지", "감기");
+		heal(cat1);
+		heal(dog1);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

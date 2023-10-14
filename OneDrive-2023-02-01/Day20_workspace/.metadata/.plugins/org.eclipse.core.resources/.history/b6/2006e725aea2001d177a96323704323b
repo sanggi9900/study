@@ -1,0 +1,20 @@
+package tech1;
+
+class unit {
+	protected String name;
+	public unit() {}
+	public void setName(String name) { this.name = name; }
+	public String getName() { return name; }
+}
+class Knight extends unit {
+	public Knight() {}
+	public void action() { System.out.println("WRYYYYYY!!!!"); }
+}
+
+public class FinalSample {
+	public static void main(String[] args) {
+		// final 키워드 : 상속하면 곤란한 것을 통제하는 키워드
+		Knight knight1 = new Knight();
+		knight1.action();
+	}
+}

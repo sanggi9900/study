@@ -1,0 +1,66 @@
+package oop5;
+
+class Thing<T>{
+	protected T x;
+	protected T y;
+	public Thing(T x, T y) {
+		this.x = x;
+		this.y = y;
+	}
+	public T getX() { return this.x; }
+	public T getY() { return this.y; }
+	public void setX(T x) { this.x = x; }
+	public void setY(T y) { this.y = y; }
+}
+// 1) 상속할 때 자료형을 정해서 상속한다.
+class Rock extends Thing<Integer>{
+	private String name;
+	public Rock(String name) {
+		super(0,0);
+		this.name = name;
+	}
+	public void setName(String name) { this.name = name; }
+	public String getName() { return this.name; }
+}
+// 2) 자식클래스에 제네릭을 설정하고, 이를 부모에만 반영한다.
+class RockA<T> extends Thing<T>{
+	private String name;
+	public RockA(String name) {
+		super(null,null);
+		this.name = name;
+	}
+	public void setName(String name) { this.name = name; }
+	public String getName() { return this.name; }
+}
+// # 제네릭의 T는 여러개 설정가능하다. 쉼표로 구분함.
+class RockB<subT, superT> extends Thing<superT>{
+	private subT name;
+	public RockB(subT name) {
+		super(null,null);
+		this.name = name;
+	}
+	public void setName(subT name) { this.name = name; }
+	public subT getName() { return this.name; }
+}
+
+public class OOP13 {
+	public static void main(String[] args) {
+		// 제네릭 클래스 : 모든 동작을 메서드로 처리하여 이용해야 하는 클래스 
+		// - 자료형은 비원시 자료형만 가능하다.
+		Rock rock1 = new Rock("돌맹이1");
+		rock1.setX(5);
+		rock1.setY(3);
+		System.out.printf("%s : %d, %d\n", rock1.getName(),rock1.getX(), rock1.getY());
+		RockA<Double> rockA1 = new RockA<Double>("돌맹이2");
+		rockA1.setX(3.5);
+		rockA1.setY(4.7);
+		System.out.printf("%s : %.1f, %.1f\n", rockA1.getName(),rockA1.getX(), rockA1.getY());
+		RockB<Integer, >
+	}
+}
+
+
+
+
+
+

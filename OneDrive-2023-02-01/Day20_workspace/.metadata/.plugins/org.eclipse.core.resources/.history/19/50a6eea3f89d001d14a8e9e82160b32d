@@ -1,0 +1,22 @@
+package oop5;
+
+public class GenericEX {
+	public static void main(String[] args) {
+		GenBox<Integer> gBox1 = new GenBox<Integer>("정수상자");
+		GenBox<String> gBox2 = new GenBox<String>("문자열상자");
+		gBox1.showInfo(); // 정수상자이(/가) 닫혀 있습니다.
+		gBox2.showInfo(); // 문자열상자이(/가) 닫혀 있습니다.
+		gBox1.open();
+		gBox2.open();
+		gBox1.showInfo();
+		gBox2.showInfo();
+		gBox1.setData(100);
+		gBox2.setData("Apple");
+		gBox1.showInfo();
+		gBox2.showInfo();
+		gBox1.close();
+		gBox2.close();
+		System.out.println("gBox1의 값 : " + gBox1.getData());
+		System.out.println("gBox2의 값 : " + gBox2.getData());
+	}
+}

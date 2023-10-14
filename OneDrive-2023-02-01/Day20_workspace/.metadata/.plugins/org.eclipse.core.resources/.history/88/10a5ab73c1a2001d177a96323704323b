@@ -1,0 +1,58 @@
+package sup2;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class ExceptionHandle {
+	// 필드로 Sanner를 준비하면 좀 더 안정적으로 관리할 수 있다.
+	public static Scanner sc = new Scanner(System.in);
+	// 메서드로 분리해서 throws시키면 좀 더 효율적으로 구성할 수 있다.
+	// - 예외를 통제해서 catch하도록 제어할 수 있음
+	public static int test(int n1, int n2) throws ArithmeticException  {
+		return n1 / n2;
+	}
+	
+	public static void main(String[] args) {
+		// Exception : 예외.
+		// 이미 사전에 프로그램이 강종되는 것을 예방하기 위해 준비한 보고체계
+		// 구조는 크게 3가지로 이루어짐
+		// 1) try : 감시하는 구역을 설정함
+		// 2) catch : 구역에 내에서 발생한 예외를 접수하고
+		//            그에 대응되는 코드를 실행함
+		// 3) finally : 구역내에서 벌렸던 일을 뒷정리하기 위한 코드구간
+		//              입출력관련해서 주로 설정하여 사용함
+		//              무조건 실행되는 코드다.
+		
+		// 사용방식1. 에러원인을 파악해 해결하고, 예외처리를 제거함
+		// 사용방식2. 외부요인으로 해결이 안되면, 예외처리로 안정성을 높여줌
+		try {
+			int num1 = sc.nextInt();
+			int num2 = sc.nextInt();
+			int result = test(num1, num2);
+			System.out.println("결과 : " + result);
+		}
+		// 주의사항 - Exception 클래스를 절대 선두에 걸면 안됨
+		//         에러 종류가 추측이 안될 경우에만 가장 마지막에 추가한다.
+		catch(InputMismatchException e) {
+			// 예외 객체를 접수하고, 이를 출력할 수 있으며
+			// 이 때 에러의 발생원인 등을 확인할 수 있다.
+			System.out.println("에러1 : " + e);
+		}
+		catch(ArithmeticException e) {
+			// 예외 객체를 접수하고, 이를 출력할 수 있으며
+			// 이 때 에러의 발생원인 등을 확인할 수 있다.
+			System.out.println("에러2 : " + e);
+		}
+		catch(Exception e) {
+			System.out.println("에러 0");
+		}
+		finally {
+			System.out.println("안전하게 종료할께요!");
+			sc.close();
+		}
+	}
+}
+
+
+
+

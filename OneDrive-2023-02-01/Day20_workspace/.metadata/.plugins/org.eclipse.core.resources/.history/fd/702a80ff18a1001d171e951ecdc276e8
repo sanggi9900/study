@@ -1,0 +1,8 @@
+package tech1;
+
+public class Static1 {
+	public static void main(String[] args) {
+		// static 키워드 : 객체를 만들지 않아도 쓸 수 있는 필드/메서드
+		Sample1 sam1 = new Sample1(100);
+	}
+}

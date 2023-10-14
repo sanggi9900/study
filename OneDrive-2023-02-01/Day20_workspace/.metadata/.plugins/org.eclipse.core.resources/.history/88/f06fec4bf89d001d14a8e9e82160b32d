@@ -1,0 +1,8 @@
+package oop5;
+
+public class GenericEX {
+	public static void main(String[] args) {
+		GenBox<Integer> gBox1 = new GenBox<Integer>("정수상자");
+		GenBox<Integer> gBox1 = new GenBox<Integer>("정수상자");
+	}
+}

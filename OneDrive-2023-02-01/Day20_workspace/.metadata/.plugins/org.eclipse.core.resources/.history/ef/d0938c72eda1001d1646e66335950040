@@ -1,0 +1,6 @@
+package myClass;
+
+public class Car impletments Drivable {
+	private String name;
+	
+}

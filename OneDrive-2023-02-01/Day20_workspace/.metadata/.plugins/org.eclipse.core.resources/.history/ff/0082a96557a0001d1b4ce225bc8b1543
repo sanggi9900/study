@@ -1,0 +1,7 @@
+package oop6;
+
+public class OOP16 {
+	public static void main(String[] args) {
+		// 업캐스팅 : 메서드가 달라짐
+	}
+}

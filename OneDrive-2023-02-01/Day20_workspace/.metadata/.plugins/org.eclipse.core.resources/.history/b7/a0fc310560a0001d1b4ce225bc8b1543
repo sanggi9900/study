@@ -1,0 +1,7 @@
+package main;
+
+public class FinalEX {
+	public static void main(String[] args) {
+		Playable pc1 = new Playable("∏∂¿ª¡÷πŒ", 100);
+	}
+}

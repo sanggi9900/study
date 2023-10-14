@@ -1,0 +1,9 @@
+package main;
+
+public class FinalEX {
+	public static void main(String[] args) {
+		Playable pc1 = new Playable("마을주민", 100);
+		Playable pc2 = new Warrior("전사", 200);
+		Playable pc3 = new Wizard("마법사", 100);
+	}
+}

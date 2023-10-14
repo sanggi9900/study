@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
+	<classpathentry kind="src" path="Day20_workspace/ADVANCE/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day01/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day02/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day03/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day04/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day05/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day06/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day07/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day08/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day09/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Day10/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Final/src"/>
+	<classpathentry kind="src" path="Day20_workspace/Supplement/src"/>
+	<classpathentry kind="src" path="Day20_workspace/TECHINITION/src"/>
+	<classpathentry kind="src" path="Day20_workspace/TEST/src"/>
+	<classpathentry kind="src" path="Day20/src"/>
+	<classpathentry kind="output" path="Day20/bin"/>
+</classpath>

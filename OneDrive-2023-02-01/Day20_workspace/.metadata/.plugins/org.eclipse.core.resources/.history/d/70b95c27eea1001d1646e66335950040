@@ -1,0 +1,7 @@
+package tech1;
+
+public class InterfaceEX {
+	public static void main(String[] args) {
+		Car sonata = new Car("Sonata");
+	}
+}

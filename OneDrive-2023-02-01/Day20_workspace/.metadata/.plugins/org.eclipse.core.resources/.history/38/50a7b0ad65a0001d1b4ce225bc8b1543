@@ -1,0 +1,14 @@
+package character;
+
+public class Healer extends Playable {
+	private int mp;
+	public Healer(String name, int hp, int mp) {
+		super(name, hp);
+		this.mp = mp;
+	}
+	public void attack(Playable that) {
+		that.hp += 20;
+		System.out.printf("%s이(/가) %s을(/를) 회복시킴");
+	}
+	public void greeting()
+}

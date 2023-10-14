@@ -1,0 +1,6 @@
+package myClass;
+
+public class Doctor extends AbsHuman  {
+	private String part;
+
+}

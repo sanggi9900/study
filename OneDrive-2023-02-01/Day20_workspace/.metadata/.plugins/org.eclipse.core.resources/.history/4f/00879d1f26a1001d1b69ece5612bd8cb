@@ -1,0 +1,9 @@
+package myClass;
+
+public class Doctor extends AbsHuman  {
+	private String part;
+	public Doctor(String name, String part) {
+		super(name);
+	}
+
+}

@@ -1,0 +1,8 @@
+package oop6;
+
+public class CastingEX {
+	public static void main(String[] args) {
+		IntBox iBox1 = new IntBox("정수1", 100);
+		IntBox iBox2 = new IntBox("정수2", 100);
+	}
+}

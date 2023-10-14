@@ -1,0 +1,24 @@
+package sup1;
+
+class Data {
+	private String name;
+	private int age;
+	public Data(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	public Strinbg getName() { return name; }
+}
+
+public class Sup1 {
+	public static void main(String[] args) {
+		// API : Application Programming Interface
+		// -> 프로그램간에 호환되도록 준비되어있는 인터페이스
+		// 1) java.lang.System - 입출력(키보드기반 문자입출력, 파일입출력)
+		// 2) java.lang.String - 문자열 클래스
+		// 3) java.lang.Wrapper - 원시자료형을 클래스에 넣기 위한 클래스
+		// 4) java.lang.Object - 자바의 모든 것을 편하게 다루기 위한 클래스
+		// 5) java.lang.Comparable<T> : 정렬을 구현하기 위한 인터페이스
+		
+	}
+}

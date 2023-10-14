@@ -1,0 +1,11 @@
+package character;
+
+public class Playable {
+	protected String name;
+	protected int hp;
+	public Playable(String name, int hp) {
+		this.name = name;
+		this.hp = hp;
+	}
+	public void status() {}
+}

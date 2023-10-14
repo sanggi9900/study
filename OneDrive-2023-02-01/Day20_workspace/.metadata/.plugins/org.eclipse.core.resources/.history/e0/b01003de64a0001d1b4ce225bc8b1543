@@ -1,0 +1,6 @@
+package character;
+
+public class Wizard {
+	private int mp;
+
+}

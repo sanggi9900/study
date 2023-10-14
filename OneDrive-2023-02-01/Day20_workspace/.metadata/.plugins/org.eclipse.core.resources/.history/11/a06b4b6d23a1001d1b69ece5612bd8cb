@@ -1,0 +1,9 @@
+package myClass;
+
+public abstract class AbsHuman {
+	protected String name;
+	public AbsHuman(String name) {
+		this.name = name;
+	}
+	public introduce(;)
+}
