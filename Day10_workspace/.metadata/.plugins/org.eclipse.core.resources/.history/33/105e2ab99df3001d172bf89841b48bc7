@@ -1,0 +1,10 @@
+package whilestate;
+
+public class WhileEXA {
+	public static void main(String[] args) {
+		// while 추가문제
+		// 정수 2개를 입력을 받아서 첫번째를 두번째로 나눈 몫을 출력하는 반복문을
+		// 구성하세요.
+		// 단 2번째 정수가 0인 경우에는 반복이 종료됩니다.
+	}
+}

@@ -1,0 +1,9 @@
+package classSource;
+
+// 추상화
+// - 대상이 가지는 특징(변수)
+// - 대상이 할 수 있는 동작(
+
+public class Rock {
+	
+}

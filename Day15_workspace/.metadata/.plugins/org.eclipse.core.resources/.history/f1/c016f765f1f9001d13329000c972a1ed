@@ -1,0 +1,9 @@
+package runSpace;
+
+public class BASE3_EX {
+	public static void main(String[] args) {
+		// 실습
+		// Box3 클래스에 생성자를 추가하세요.
+		// Box의 상태는 "항상" 닫혀 있는 상태로 출고됩니다.
+	}
+}

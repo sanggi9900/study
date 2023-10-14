@@ -1,0 +1,14 @@
+package forstatement;
+
+public class ForEX2 {
+	public static void main(String[] args) {
+		// 누적합 - 연산식의 이항연산을 하나씩 분리하여 누적연산으로 변환
+		int result1 = 0;
+		result1 += 1;
+		result1 += 2;
+		result1 += 3;
+		result1 += 4;
+		result1 += 5;
+		int result2 = 0;
+	}
+}

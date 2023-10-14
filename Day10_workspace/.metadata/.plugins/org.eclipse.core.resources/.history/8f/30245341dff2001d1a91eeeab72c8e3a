@@ -1,0 +1,8 @@
+package whilestate;
+
+public class WhileEX1 {
+	public static void main(String[] args) {
+		// 크게 2가지 접근방식
+		int num1 = 0;
+	}
+}

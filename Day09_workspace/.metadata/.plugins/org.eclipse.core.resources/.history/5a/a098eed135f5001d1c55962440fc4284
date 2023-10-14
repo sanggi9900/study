@@ -1,0 +1,14 @@
+package part2;
+
+public class Method3 {
+	// 3) 매개변수가 있는 메서드
+	// - 매개변수 자리에는 void를 채울 수 없음. 비워둘 수 있음.
+	// - 매개변수는 추가함으로써 필요한 값을 복사받을 수있게 만들 수 있음.
+	// - 값을 불러오는 용도가 아니라, 값을 복사받기 위한 메서드의 변수이니 주의.
+	public static void test() {
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+}

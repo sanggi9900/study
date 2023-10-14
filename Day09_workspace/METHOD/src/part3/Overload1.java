@@ -1,0 +1,38 @@
+package part3;
+
+public class Overload1 {
+	public static int getExpo(int n1, int n2) {
+		if (n2 < 0) return 0;
+		else {
+			int result = 1;
+			while (n2 > 0) {
+				result *= n1;
+				n2 -= 1;
+			}
+			return result;
+		}
+	}
+	public static double getExpo(double n1, int n2) {
+		if (n2 < 0) return 0;
+		else {
+			double result = 1;
+			while (n2 > 0) {
+				result *= n1;
+				n2 -= 1;
+			}
+			return result;
+		}
+	}
+	public static void main(String[] args) {
+		// # 기본적인 메서드 관리요령
+		// 메서드의 반환형과 매개변수의 자료형은
+		// 1) 한쪽으로 몰아서 통합
+		//   -> 해당 종류의 값이 나오면 안되기 때문에
+		//      형변환 또는 그 이상의 것을 처리해줘야 함
+		// 2) 통합이 안될 경우에는 다른 메서드로 준비를 해줘야 함
+		//   -> 메서드가 늘어나서 일일히 찾아서 사용하기 힘들어짐
+		// - 이러한 문제점은 처음에 만들어 준비할 때는 별 문제가 안됨
+		System.out.println("결과1 : " + getExpo(2, 3));
+		System.out.println("결과2 : " + getExpo(4.2, 3));
+	}
+}

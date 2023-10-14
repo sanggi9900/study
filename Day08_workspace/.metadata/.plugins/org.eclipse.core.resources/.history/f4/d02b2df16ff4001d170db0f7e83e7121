@@ -1,0 +1,11 @@
+package part1;
+
+public class MethodEX1 {
+	// 
+	public static void calculator() {
+		
+	}
+	public static void main(String[] args) {
+		calculator();
+	}
+}

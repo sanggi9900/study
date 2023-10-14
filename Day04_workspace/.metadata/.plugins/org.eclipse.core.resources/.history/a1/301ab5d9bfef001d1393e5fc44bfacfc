@@ -1,0 +1,13 @@
+package ifstate;
+
+public class If01 {
+	public static void main(String[] args) {
+		// 조건문 : 선별하여 골라내고 달리 처리하기 위한 제어문
+		// - 선형방식은 모든 것을 공평하게 처리하는 것
+		// - 하지만 모든 것은 공평하게 처리될 수 없음
+		
+		// 기본사용방식 : if + else
+		// if : 조건식의 결과가 true일 때 실행할 코드를 묶어주기 위한 제어문
+		// else : 조건식의 결과가 false일 때 실행할 코드를 묶어주기 위한 제어문
+	}
+}

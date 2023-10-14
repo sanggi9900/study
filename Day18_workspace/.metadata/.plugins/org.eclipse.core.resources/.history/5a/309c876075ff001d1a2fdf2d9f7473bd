@@ -1,0 +1,9 @@
+package classSpace;
+
+public class TypeBox extends Box {
+	private String data;
+	
+	public TypeBox(String name, String data) {
+		super()
+	}
+}

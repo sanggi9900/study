@@ -1,0 +1,8 @@
+package part2;
+
+public class Method4 {
+	// 4) 반환과 매개변수가 있는 메서드 : 
+	public static void main(String[] args) {
+		
+	}
+}

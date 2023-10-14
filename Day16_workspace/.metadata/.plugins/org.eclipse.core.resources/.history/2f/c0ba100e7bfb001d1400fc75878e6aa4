@@ -1,0 +1,10 @@
+package runSpace;
+
+public class ActionEX2 {
+	public static void main(String[] args) {
+		// 실습
+		// Human 클래스의 action 메서드를 정의하세요.
+		// 1) 상자의 상태를 읽어서 열거나 닫는 메서드
+		// 2) 서랍에 대해 특정 번째의 서랍을 열거나 닫는 메서드
+	}
+}

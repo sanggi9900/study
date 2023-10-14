@@ -1,0 +1,35 @@
+package part1;
+
+import java.util.Scanner;
+
+public class Method2 {
+	// 2) 반환형이 존재하는 메서드 : 내부(메모리, 다른 메서드 내부, 변수)에 출력하는 메서드
+	// - 2개 이상은 불가능하기 때문에, 가장 가치가 있는 하나만 골라줘야 함
+	public static void getResult() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("ID > ");
+		String id = sc.next();
+		if (!id.equals("USER")) System.out.println("FAIL!");
+		else {
+			System.out.print("PW > ");
+			String pw = sc.next();
+			if (!pw.equals("1234")) System.out.println("FAIL!!");
+			else {
+				System.out.println("SUCCESS!");
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		// 메서드는 어딘가에 종속된 연결된 동작
+		// - 그것과 별개로 절차는 누락되면 안됨
+		// - 기본방식은
+		//   해당 메서드에서 나오는 것을 이용할 수 없다는 단점이 존재함
+		//   -> 반환형을 통해 이를 해결해주고, 이를 위해 return을 이용함
+		//   외부에 존재하는 것을 가져와서 이용할 수 없다는 단점이 존재함
+	}
+}
+
+
+
+

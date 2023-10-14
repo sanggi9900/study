@@ -1,0 +1,12 @@
+package forstatement;
+
+import java.util.Scanner;
+
+public class ForEX4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num
+		System.out.println("ÀÔ·ÂÈ½¼ö >> ");
+		int num = sc.nextInt();
+	}
+}

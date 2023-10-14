@@ -1,0 +1,9 @@
+package base3;
+
+public class Operator2 {
+	public static void main(String[] args) {
+		// 산술연산시 주의사항
+		// 1) 나누기 / 나머지는 죽었다 깨어나도 못하는 연산이 존재함
+		// 2)
+	}
+}

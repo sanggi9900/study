@@ -1,0 +1,12 @@
+package whilestate;
+
+public class WhileEX2 {
+	public static void main(String[] args) {
+		int num1 = 0;
+		int num2 = 0;
+		while (num1 < num2) {
+			System.out.print("정수 2개 입력 >> ");
+			num1 = sc.nextInt();
+		}
+	}
+}

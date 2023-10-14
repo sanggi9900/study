@@ -1,0 +1,32 @@
+package classSource;
+
+// 캡슐화
+public class Rock2 {
+	// 기본원칙
+	// - 필드는 private부터 시작하며 넓어진다
+	private String material;
+	private String shape;
+	private double weight;
+	
+	// - 메서드는 public부터 시작하며 좁아진다
+	// setter/getter는 필드와 기능 메서드 사이에 준비해줌
+	// setter끼리 묶어서 준비하고
+	public void setMaterial(String mat) {
+		material = mat;
+	}
+	public void setShape(String sha) {
+		shape = sha;
+	}
+	public void setWeight(double value) {
+		weight = value;
+	}
+	// getter끼리 묶어서 준비함
+	public String getMaterial() {
+		
+	}
+	
+	
+	public void canThrow() {
+		System.out.println("부우우웅~!");
+	}
+}

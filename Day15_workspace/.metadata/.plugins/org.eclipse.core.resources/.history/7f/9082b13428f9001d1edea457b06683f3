@@ -1,0 +1,7 @@
+package runSpace;
+
+public class BASE2_Encapsulation {
+	public static void main(String[] args) {
+		// 
+	}
+}

@@ -1,0 +1,7 @@
+package forstatement;
+
+public class ForEX1 {
+	public static void main(String[] args) {
+		// for는 유한반복용이고, while은 범용성이 좋음
+	}
+}

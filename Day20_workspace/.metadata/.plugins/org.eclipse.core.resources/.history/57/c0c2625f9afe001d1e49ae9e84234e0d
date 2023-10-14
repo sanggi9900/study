@@ -1,0 +1,8 @@
+package runSapce;
+
+public class InheritanceEX {
+	public static void main(String[] args) {
+		
+	}
+
+}

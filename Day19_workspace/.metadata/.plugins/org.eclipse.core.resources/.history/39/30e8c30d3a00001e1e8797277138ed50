@@ -1,0 +1,19 @@
+package space2;
+
+import space1.House;
+
+public class AbstractClass {
+	public static void main(String[] args) {
+		// Ãß»óÅ¬·¡½º : Å« Æ²À» Á¦°øÇÔ
+		// - »ó¼ÓÀ» ÀüÁ¦·Î ÇÏ´Â Å¬·¡½º
+		House myhome = new House("³» Áý", 4);
+		myhome.in("±è¾¾");
+		myhome.in("ÀÌ¾¾");
+		myhome.in("°í¾¾");
+		myhome.in("°­¾¾");
+		myhome.in("°û¾¾");
+		// ÀÏ¹Ý Å¬·¡½º »ó¼Ó
+		// 1) 
+		// Ãß»ó Å¬·¡½º »ó¼Ó
+	}
+}

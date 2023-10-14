@@ -1,0 +1,8 @@
+package runSpace;
+
+public class BASE1_Abstraction {
+	public static void main(String[] args) {
+		// ¿©±â¼­ °´Ã¼¸¦ ¸¸µé¾î ¾¸
+		Rock jjang1 = 
+	}
+}

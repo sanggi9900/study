@@ -1,0 +1,22 @@
+package runSapce;
+
+import classSpace.Doctor;
+import classSpace.Human;
+
+public class Upcast {
+	public static void EX1() {}
+	public static void main(String[] args) {
+		// 상속을 통해 정의된 클래스로 만들어진 객체의 캐스팅
+		// UPCASTING : 자식 객체를 부모 참조변수로 취급하기
+
+		
+		// DOWNCASTING : 그렇게 취급하던 객체를 다시 원래 상태로 복원시키기
+		
+	}
+}
+
+
+
+
+
+

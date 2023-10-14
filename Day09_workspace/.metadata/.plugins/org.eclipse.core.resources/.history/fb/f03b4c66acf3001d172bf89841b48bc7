@@ -1,0 +1,39 @@
+package forstatement;
+
+import java.util.Scanner;
+
+public class ForEX2 {
+	public static void main(String[] args) {
+		// 누적합 - 연산식의 이항연산을 하나씩 분리하여 누적연산으로 변환
+		Scanner sc = new Scanner(System.in);
+		int num = 0;
+		while (true) {
+			System.out.print("양수 입력 >> ");
+			num = sc.nextInt();
+			if (num > 0 ) {
+				System.out.println("올바른 수입니다.");
+				break;
+			}
+		}
+		int result = 0;
+		while (num > 0) {
+			result += num;
+			num -= 1;
+		} System.out.println("while을 이용한 합 : " + result);
+		
+		int result1 = 0;
+		result1 += 1;	// 1부터 5를 더해도 가능
+		result1 += 2;
+		result1 += 3;
+		result1 += 4;
+		result1 += 5;
+		int result2 = 0;
+		result2 += 5;	// 5부터 1을 더해도 가능
+		result2 += 4;
+		result2 += 3;
+		result2 += 2;
+		result2 += 1;
+		System.out.println(result1 + ", " + result2);
+		
+	}
+}

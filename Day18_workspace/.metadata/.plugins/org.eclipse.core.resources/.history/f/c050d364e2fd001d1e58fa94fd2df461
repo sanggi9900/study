@@ -1,0 +1,8 @@
+package runSapce;
+
+public class Inheritance {
+	public static void main(String[] args) {
+		// 상속 : 설계도(class)를 이어받아 이용하는 것
+		// - 
+	}
+}

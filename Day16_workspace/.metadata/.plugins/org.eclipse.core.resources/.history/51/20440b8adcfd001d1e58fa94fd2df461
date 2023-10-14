@@ -1,0 +1,7 @@
+package runSpace;
+
+public class INTERACTION_EX4 {
+	public static void main(String[] args) {
+		// 같은 수준의 클래스간의 상호작용2
+	}
+}

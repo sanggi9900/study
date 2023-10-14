@@ -1,0 +1,14 @@
+package space1;
+
+// 
+public class Human extends Body implements Action {
+	public Human(String name, int age) {
+		super(name, age);
+	}
+	public void greeting() {
+		System.out.println("안녕하세요~");
+	}
+	public void introduce() {
+		System.out.printf("내 이름은 %s이고, 나이는 %d세입니다.\n",name,age);
+	}
+}

@@ -1,0 +1,7 @@
+package space1;
+
+// 클래스에 붙은 abstract 키워드
+// 1) 
+public abstract class AbsBox {
+	
+}

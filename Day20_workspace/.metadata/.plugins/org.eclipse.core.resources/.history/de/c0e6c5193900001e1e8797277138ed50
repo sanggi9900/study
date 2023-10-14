@@ -1,0 +1,15 @@
+package space2;
+
+import space1.House;
+
+public class AbstractClass {
+	public static void main(String[] args) {
+		// 추상클래스 : 큰 틀을 제공함
+		// - 상속을 전제로 하는 클래스
+		House myhome = new House("내 집", 4);
+		myhome.in("김씨");
+		myhome.in("김씨");
+		myhome.in("김씨");
+		myhome.in("김씨");
+	}
+}

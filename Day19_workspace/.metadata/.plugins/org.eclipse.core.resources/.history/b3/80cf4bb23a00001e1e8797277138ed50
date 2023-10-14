@@ -1,0 +1,8 @@
+package space2;
+
+public class AbstractEX {
+	public static void main(String[] args) {
+		// 실습
+		// AbsBox 추상 클래스를 상속받아서
+	}
+}

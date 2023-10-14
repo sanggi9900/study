@@ -1,0 +1,10 @@
+package runSpace;
+
+public class INTERACTION_EX3 {
+	public static void main(String[] args) {
+		// 상호작용 : 같은 수준의 객체끼리의 상호작용
+		Robot rob1 = new Robot();
+		Robot rob2 = new Robot();
+		
+	}
+}

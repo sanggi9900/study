@@ -1,0 +1,13 @@
+package classSpace;
+
+public class Actor extends Human {
+	public Actor(String name) {
+		// 기본 생성자가 없으면 무조건 부모 생성자를 호출해야 함
+		super(name, "배우", 0);
+	}
+	// 메서드 오버라이딩 - 기존 메서드 갈아치우기
+	// - 무조건 동일해야 함
+	public void greeting(int num) {
+		System.out.println("잘나가는 배우입니다.");
+	}
+}

@@ -1,0 +1,14 @@
+package base2;
+
+import java.util.Scanner; // ctrl + shift + o
+
+public class Base6 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		// 문자 입력 - 존재하지 않음. 문자열(단어) 입력을 응용하여 구성함
+		// ※ 문자열은 어떤 언어든 문자의 집합으로 인식하고 있음
+		// - 하나밖에 없는 문자열은 문자다
+		
+	}
+}

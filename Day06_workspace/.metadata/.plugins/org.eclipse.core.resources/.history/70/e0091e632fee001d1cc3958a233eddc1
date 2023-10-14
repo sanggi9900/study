@@ -1,0 +1,10 @@
+package base2;
+
+public class InputEX2 {
+	public static void main(String[] args) {
+		// 실습
+		// 1) 경역학 개론1, 경영학 개론2, 경영학 원론의
+		//    학점등급을 입력을 받아 저장합니다.
+		// 2) 경영학 원론 학점에 대한 간단한 코멘트를 입력을 받아 저장합니다
+	}
+}

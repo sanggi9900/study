@@ -1,0 +1,14 @@
+package base2;
+
+public class OutputEX2 {
+	public static void main(String[] args) {
+		// 실습 - 서식문자 연습해보기
+		// %5.3f
+		// 5 : 5칸 확보후 우측정렬, 음수부호가 붙으면 좌측정렬.
+		// .3 : 소수점 3자리 반올림처리
+		// f : 대상을 인식(해석)하는 방식
+		String word = "ApplePie";
+		double value = 3.345678;
+		
+	}
+}

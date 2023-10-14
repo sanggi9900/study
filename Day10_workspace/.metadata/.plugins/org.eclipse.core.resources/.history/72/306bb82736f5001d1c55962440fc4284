@@ -1,0 +1,26 @@
+package part2;
+
+import java.util.Scanner;
+
+public class Method3 {
+	// 3) 매개변수가 있는 메서드
+	// - 매개변수 자리에는 void를 채울 수 없음. 비워둘 수 있음.
+	// - 매개변수는 추가함으로써 필요한 값을 복사받을 수있게 만들 수 있음.
+	// - 값을 불러오는 용도가 아니라, 값을 복사받기 위한 메서드의 변수이니 주의.
+	public static void test(int num1) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("정수값 2개 >> ");
+		 = 
+		int num2 = sc.nextInt();
+		
+		if (num2 == 0) System.out.println("연산불가");
+		else System.out.println("결과 : " + (num1 % num2));
+	}
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+
+

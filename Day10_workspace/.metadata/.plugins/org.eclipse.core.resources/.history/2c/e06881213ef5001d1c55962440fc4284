@@ -1,0 +1,11 @@
+package part2;
+
+public class MethodEX4 {
+	public static void main(String[] args) {
+		// 실행코드
+		int result1 = getQuot(10, 3);
+		int result2 = getQuot(10, 3);
+		int result3 = getExpo(2, 3);
+		int result4 = getExpo(2, -1);
+	}
+}

@@ -1,0 +1,17 @@
+package runSapce;
+
+public class InheritanceEX2 {
+	public static void main(String[] args) {
+		// 실습
+		// - Human 클래스를 상속해서 Doctor 클래스를
+		//  정의하세요.
+		// 1) 필드로 "진료과목"이 추가됩니다.
+		// 2) getName은 오버라이딩해서
+		//    의사 XXX 형태로 반환합니다.
+		// 3) getRoll은 오버라이딩해서
+		//    진료과목 : XXX 형태로 반환합니다.
+		// 4) greetring은 오버로딩해서
+		//    Human 객체를 받아서 그 이름을 읽어서
+		//    인사를 하도록 정의하세요.
+	}
+}

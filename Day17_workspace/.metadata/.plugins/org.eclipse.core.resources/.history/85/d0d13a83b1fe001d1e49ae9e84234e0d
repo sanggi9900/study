@@ -1,0 +1,14 @@
+package classSpace;
+
+public class Doctor extends Human {
+	private String part;
+	
+	public Doctor(String name, String part) {
+		super(name, "ÀÇ»ç", 0);
+		this.part = part;
+	}
+	
+	public String getRoll() {
+		return "
+	}
+}

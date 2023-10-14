@@ -1,0 +1,24 @@
+package runSpace;
+
+import classSource.Rock2;
+
+public class BASE2_Encapsulation {
+	public static void main(String[] args) {
+		// 캡슐화 : 정보 보호 및 사용 통제
+		Rock2 jjangdol = new Rock2();
+		// setter - 값을 저장하기
+		// - 필드에 대해서는 대입연산을 외부에서 하지 않음
+		jjangdol.setMaterial("모래");
+		jjangdol.setShape("매끈한 모양");
+		jjangdol.setWeight(0.5);
+		
+		// getter - 값을 불러오기
+	}
+}
+
+
+
+
+
+
+

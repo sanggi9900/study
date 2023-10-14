@@ -1,0 +1,15 @@
+package space2;
+
+import space1.House;
+
+public class AbstractClass {
+	public static void main(String[] args) {
+		// Ãß»óÅ¬·¡½º : Å« Æ²À» Á¦°øÇÔ
+		// - »ó¼ÓÀ» ÀüÁ¦·Î ÇÏ´Â Å¬·¡½º
+		House myhome = new House("³» Áý", 4);
+		myhouse.in("±è¾¾");
+		myhouse.in("±è¾¾");
+		myhouse.in("±è¾¾");
+		myhouse.in("±è¾¾");
+	}
+}

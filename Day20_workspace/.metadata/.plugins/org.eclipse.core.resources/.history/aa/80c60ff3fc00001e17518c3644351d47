@@ -1,0 +1,17 @@
+package space1;
+
+// # 클래스 디자인 개념
+//  - 정보와 동작의 분리
+// 정보를 담당하는 추상클래스와
+// 이를 이용하는 인터페이스로 나눠서 디자인한 것
+public class Human extends Body implements Action {
+	public Human(String name, int age) {
+		super(name, age);
+	}
+	public void greeting() {
+		System.out.println("안녕하세요~");
+	}
+	public void introduce() {
+		System.out.printf("내 이름은 %s이고, 나이는 %d세입니다.\n",name,age);
+	}
+}

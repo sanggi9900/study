@@ -1,0 +1,11 @@
+package space1;
+
+public class ValueBox extends AbsBox {
+	private int front;
+	private double back;
+	
+	public ValueBox(String name, double value) {
+		this.name = name;
+		front = (int)value;
+	}
+}

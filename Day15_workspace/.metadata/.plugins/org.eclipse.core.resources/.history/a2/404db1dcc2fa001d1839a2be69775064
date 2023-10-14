@@ -1,0 +1,33 @@
+package runSpace;
+
+import classSpace.Box;
+
+public class ActionEX1 {
+	public static void main(String[] args) {
+		// 실습1
+		// 1) Box 클래스를 담을 수 있는, 크기 8짜리 배열을 생성하세요.
+		// 2) 이 배열은 8단 서랍이고, 서랍장이 없으니 서랍을 생성해서 넣어주세요.
+		// 3) 각 서랍은 n번 서랍이라는 이름으로 붙여주시면 됩니다.
+		//    8단이니 1번부터 8번까지 번호가 붙습니다.
+		// 4) 모든 서랍을 열어주세요.
+		// 5) 모든 서랍이 열린 상태인지 출력하세요.
+		
+		// 배열 생성 : 배열 객체가 만들어지고, 서랍은 만들어지지 않음
+		Box[] drawer = new Box[8];
+		// NullPointerException
+		// - 생성된 적이 없는 객체를 쓸려고 할 때 발생하는 예외
+		
+		// 서랍 생성 및 이름 붙이기
+		for (int i = 0; i < drawer.length; i += 1) {
+			drawer[i].open();
+		}
+		// 서랍 열기
+		for (int i = 0; i < drawer.length; i += 1) {
+			
+		}
+		// 서랍 정보 출력
+		for (int i = 0; i < drawer.length; i += 1) {
+	
+		}
+	}
+}

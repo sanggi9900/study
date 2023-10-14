@@ -1,0 +1,9 @@
+package ifstate;
+
+public class IfEX3 {
+	// 자동완성목록은 위아래 방향키로 골라서 엔터를 누르면 선택 가능
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+	}
+}

@@ -1,0 +1,18 @@
+package ifstate;
+
+import java.util.Scanner;
+
+public class IfEX4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("1锅 己利 >> ");
+		double score1 = sc.nextDouble();
+		System.out.print("2锅 己利 >> ");
+		double score2 = sc.nextDouble();
+		System.out.print("3锅 己利 >> ");
+		double score3 = sc.nextDouble();
+		double avg = (score1 + score2 + score3) / 3;
+		char rank = '\0'; // '\0' == NULL == 沥荐0
+		
+	}
+}

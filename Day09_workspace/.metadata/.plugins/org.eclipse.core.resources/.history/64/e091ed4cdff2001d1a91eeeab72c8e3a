@@ -1,0 +1,14 @@
+package whilestate;
+
+import java.util.Scanner;
+
+public class WhileEX1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// 크게 2가지 접근방식
+		int num1 = 0;
+		while (num1 % 2 == 0) {
+			
+		}
+	}
+}

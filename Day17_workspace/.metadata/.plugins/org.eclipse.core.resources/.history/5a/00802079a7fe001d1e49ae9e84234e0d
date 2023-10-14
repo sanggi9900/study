@@ -1,0 +1,9 @@
+package classSpace;
+
+public class Actor extends Human {
+	public Actor(String name) {
+		this.name = name;
+		this.roll = "¹è¿ì";
+		this.age = 0;
+	}
+}

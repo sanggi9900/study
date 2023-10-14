@@ -1,0 +1,7 @@
+package part3;
+
+public class OverloadEX1 {
+	public static void main(String[] args) {
+		
+	}
+}

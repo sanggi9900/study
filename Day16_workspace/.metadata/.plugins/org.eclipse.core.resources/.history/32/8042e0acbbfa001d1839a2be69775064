@@ -1,0 +1,38 @@
+package runSpace;
+
+import classSpace.Human;
+
+public class INTERACTION_EX {
+	public static void main(String[] args) {
+		// 박스는 이걸 엮어서 연결하면 서랍장 / 화물칸이라면서 이용 가능
+		
+		// 사람은 엮으면 팀/파티/채팅방/좌석이 됨
+		Human[] car_seat = new Human[4];
+		System.out.println(car_seat[0]);	// 배열을 만든 직후에는 비어있음
+		// 값이 없다 - 저장공간은 있지만, 저장된 값이 없음
+		// 참조변수가 null - 저장공간자체가 없음
+		
+		// 객체의 생성1. 바로 만들 수 있음
+		car_seat[0] = new Human("김씨", 23);
+		car_seat[2] = new Human("강씨", 28);
+		car_seat[3] = new Human("금씨", 22);
+
+		// 객체의 생성2. 외부에 있던 것을 내부로 끌고옴
+		Human go = new Human("고씨", 25);
+		car_seat[1] = go;
+		// - 주의사항 : 외부에 있는 것을 남겨둘지 여부를 결정해야 함
+		go = null; // 좌석에 앉았으니 바깥에 없는 것임
+		
+		// 객체의 사용 -> null 체크를 하면서 반복하면 됨
+		go.greeting();
+		
+	}
+}
+
+
+
+
+
+
+
+

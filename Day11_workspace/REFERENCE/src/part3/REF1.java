@@ -1,0 +1,71 @@
+package part3;
+
+import java.util.Scanner;
+
+public class REF1 {
+	public static int input() {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		return num;
+	}
+	
+	public static void input_arr1(int[] arr) {
+		for (int i = 0; i < arr.length; i += 1) {
+			arr[i] = 100 + i;	
+		}
+	}
+	public static int[] input_arr2() {
+		int[] arr = new int[3];
+		for (int i = 0; i < arr.length; i += 1) {
+			arr[i] = 100 + i;	
+		} return arr;
+	}
+	public static int make_sum(int[] arr) {
+		int result = 0;
+		for (int i = 0; i < arr.length; i += 1) {
+			result += arr[i];	
+		} return result;
+	}
+	
+	public static void main(String[] args) {
+		// 참조형 - 무조건 공유가 됨
+		// - 메서드에 적용시켰을 때 주의사항
+		// - 반환이 있을 수 있고 없을 수 있음
+		
+		// 원시자료형값을 어딘가에 전달하거나 이용할 경우, 복사(반환/매개변수)를 통해 전달받고 전달한다.
+		/*
+		int num = input();
+		System.out.println(num);
+		*/
+		// 비원시자료형은 어딘가에 전달하거나 이용할 경우, 이름표를 붙여서 이용하는 방식이다.
+		// - 생성되는 위치는 메서드 내부가 아니라, 메서드보다 더 넓은 외부에서 생성됨
+		// 1) 반환이 없는데 반환됨 - 비원시들이 가지고 있는 저장공간에 바로 전달할 수 있음
+		int[] arr = new int[3];
+		input_arr1(arr);
+		System.out.println(arr[0]);
+		System.out.println(arr[1]);
+		System.out.println(arr[2]);
+		
+		// 2) 반환형으로 통째로 반환됨 - 비원시를 필요한 곳에서 쓸 수 있도록 해주는 개념
+		int[] arr1 = input_arr2();
+		System.out.println(arr1[0]);
+		System.out.println(arr1[1]);
+		System.out.println(arr1[2]);
+		
+		// 3) 대상 참조형으로부터 얻고자 하는 것에 따라서 반환형은 다른 것을 설정할 수 있음
+		int result1 = make_sum(arr);
+		int result2 = make_sum(arr1);
+		System.out.println(result1);
+		System.out.println(result2);
+	}
+}
+
+
+
+
+
+
+
+
+
+

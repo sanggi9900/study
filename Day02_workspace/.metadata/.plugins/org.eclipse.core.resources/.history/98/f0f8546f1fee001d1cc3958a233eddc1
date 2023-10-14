@@ -1,0 +1,8 @@
+package base2;
+
+public class OutputEX2 {
+	public static void main(String[] args) {
+		// 실습 - 서식문자 연습해보기
+		// %5.3f
+	}
+}

@@ -1,0 +1,14 @@
+package space2;
+
+public class AbstractEX {
+	public static void main(String[] args) {
+		// 실습
+		// AbsBox 추상 클래스를 상속받아서
+		// 실수값을 분해해서 저장하는 ValueBox를
+		// 정의하세요.
+		// # 추가필드 : 정수부 / 실수부 보관 변수
+		// # 생성자 : 이름과 실수값을 받아서 생성되며 그 외에는 없음
+		//          생성과정에서 정수부와 실수부를 따로 분리하여 저장
+		// # open() / close() 
+	}
+}

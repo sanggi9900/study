@@ -1,0 +1,17 @@
+package runSapce;
+
+import classSpace.TypeBox;
+
+public class ObjectClass {
+	public static void main(String[] args) {
+		// Object Class - 자바에서 클래스를 정의하면, 자동으로 상속되는 클래스
+		// - 배제하는 것이 불가능한 클래스
+		// - java.lang패키지에 보관됨( + 기본적인 각종 클래스(WRAPPER CLASS)가 여기에 포함됨 )
+		// - 클래스로 객체를 만들었을 때 추가적인 메서드들을 보게 됨
+		// - 이 메서드들을 적절하게 오버라이딩하면 다양한 효과를 얻을 수 있음
+		TypeBox<Integer> box1 = new TypeBox<Integer>("정수상자", 100);
+		box1.open();
+		int num = box1.getData();
+		System.out.println(num);
+	}
+}

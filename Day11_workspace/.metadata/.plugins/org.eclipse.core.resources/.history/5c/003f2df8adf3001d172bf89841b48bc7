@@ -1,0 +1,11 @@
+package forstatement;
+
+import java.util.Scanner;
+
+public class ForEX3 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// 1) 3회 반복
+		// 2) 전부 다 맞을 경우 3회 이하에서 반복 종료
+	}
+}

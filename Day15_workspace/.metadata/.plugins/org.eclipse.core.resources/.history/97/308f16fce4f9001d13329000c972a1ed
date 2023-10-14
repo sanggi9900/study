@@ -1,0 +1,10 @@
+package runSpace;
+
+public class BASE12_Review {
+	public static void main(String[] args) {
+		// 실습
+		// Bird 클래스를 정의하세요.
+		// 특성 : 이름 / 종류 / 날고 있는지 아닌지 상태
+		// 동작 : 이륙 / 날기 / 착륙
+	}
+}

@@ -1,0 +1,6 @@
+package space1;
+
+public interface Action {
+	void greeting();
+	void introduce();
+}

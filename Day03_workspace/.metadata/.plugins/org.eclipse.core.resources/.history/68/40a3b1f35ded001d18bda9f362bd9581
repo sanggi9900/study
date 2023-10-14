@@ -1,0 +1,7 @@
+// 한줄 주석
+/* 블럭 주석 */
+package base1; // 이 소스파일이 소속된 패키지명을 의미함
+
+public class Base1 {
+
+}

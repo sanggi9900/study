@@ -1,0 +1,20 @@
+package base2;
+
+import java.util.Scanner; // ctrl + shift + o
+
+public class Base6 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		// 문자 입력 - 존재하지 않음. 문자열(단어) 입력을 응용하여 구성함
+		// ※ 문자열은 어떤 언어든 문자의 집합으로 인식하고 있음
+		// -> 하나밖에 없는 문자열은 문자다
+		System.out.print("랭크를 입력해주세요 >> ");
+		// 1) sc.next()를 쓰면 사용된 곳에 문자열값이 준비가 됨
+		// 2) 그렇게 준비된 문자열의 값의 메서드 charAt을 씀
+		// 3) charAt(0) : 0번 인덱스(첫번째)를 문자로서 가져옴
+		char rank = sc.next().charAt(0);
+		System.out.println("랭크 : " + rank);
+		
+	}
+}

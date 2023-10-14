@@ -1,0 +1,45 @@
+package ifstate;
+
+import java.util.Scanner;
+
+public class If02 {
+	public static void main(String[] agrs) {
+		// if의 응용 : 조건문 내부에 조건문 작성하기
+		// - 자료의 처리는 둘 중 하나로 결정할 수 없음
+		// - else쪽에 작성하여 늘려줘야 함
+		//   -> 이래야 else if를 사용할 수 있음
+		// - 만든 후에 이상할 경우 순서 재배치가 필요함
+		//   -> 경우의 수가 제일 적은 것을 가장 먼저 체크한다.
+		//   -> 전혀 상관없는 것을 먼저 체크하고 나열한다.
+		Scanner sc = new Scanner(System.in);
+		System.out.print("성적 입력 >> ");
+		int score = sc.nextInt();
+
+		// 채로 무언가를 걸러내듯, 조건문을 구성하는 것이 좋음
+		// - 마지막에 else가 있냐? 없냐? 에 따라 중복제거가 결정됨
+		char rank = '\0';
+		     if (score >= 90) rank = 'A';
+		else if (score >= 80) rank = 'B'; 
+		else if (score >= 70) rank = 'C';	
+		else if (score >= 60) rank = 'D'; 
+		else                  rank = 'F';
+		System.out.println(rank + "등급");
+		if (score < 60) rank = 'F';
+		else {
+			if (score < 70) rank = 'D';
+			else if (score < 80) rank = 'C';
+			else if (score < 90) rank = 'B'; 
+			else rank = 'A';
+			 
+				
+				
+		} 
+	}
+}
+
+
+
+
+
+
+

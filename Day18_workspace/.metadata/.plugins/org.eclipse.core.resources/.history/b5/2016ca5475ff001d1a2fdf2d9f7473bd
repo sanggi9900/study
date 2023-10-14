@@ -1,0 +1,5 @@
+package classSpace;
+
+public class TypeBox extends Box {
+	
+}

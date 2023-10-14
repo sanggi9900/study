@@ -1,0 +1,15 @@
+package runSpace;
+
+public class BASE1_EX {
+	public static void main(String[] args) {
+		// 실습
+		// - classSource패키지에 Box 클래스를 정의합니다.
+		// 속성 : 상자의 이름, 상자의 상태
+		// 동작 : 상자열기, 상자닫기
+		// 속성과 동작 앞에 전부 public을 붙여주세요.
+		// 아래 코드가 실행됩니다.
+		
+		Box box1 = new Box();
+		box1.??? = ""
+	}
+}

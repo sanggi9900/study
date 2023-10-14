@@ -1,0 +1,16 @@
+package part1;
+
+public class MethodEX2 {
+	// 이를 만족하는 메서드를 정의하세요.
+	// 메서드는 입력한 정수까지의 합을 구해서 반환합니다.
+	public static void getSum() {
+		
+	}
+	
+	public static void main(String[] args) {
+		// int result1 = getSum();
+		// int result2 = getSum();
+		// System.out.println("첫번째 합 : " + result1);
+		// System.out.println("두번째 합 : " + result2);
+	}
+}

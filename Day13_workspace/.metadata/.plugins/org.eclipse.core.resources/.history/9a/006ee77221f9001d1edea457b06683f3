@@ -1,0 +1,9 @@
+package runSpace;
+
+public class BASE1_EX {
+	public static void main(String[] args) {
+		// 실습
+		// - Box 클래스를 정의합니다.
+		// 필드 : 상자의 이름, 상자의 상태
+	}
+}

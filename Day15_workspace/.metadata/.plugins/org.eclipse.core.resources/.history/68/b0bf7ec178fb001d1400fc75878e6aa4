@@ -1,0 +1,12 @@
+package classSpace;
+
+public class Robot {
+	private String name;
+	public Robot() {
+		name = "·Îº¿";
+	}
+	public void rename(Rock that) {
+		that.setName();
+		
+	}
+}

@@ -1,0 +1,9 @@
+package runSapce;
+
+public class InheritanceEX2 {
+	public static void main(String[] args) {
+		// 실습
+		// - Human 클래스를 상속해서 Doctor 클래스를
+		//  정의하세요.
+	}
+}

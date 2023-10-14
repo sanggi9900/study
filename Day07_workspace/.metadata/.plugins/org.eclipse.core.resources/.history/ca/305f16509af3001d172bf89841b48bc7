@@ -1,0 +1,8 @@
+package whilestate;
+
+public class WhileEXA {
+	public static void main(String[] args) {
+		// while 추가문제
+		// 
+	}
+}

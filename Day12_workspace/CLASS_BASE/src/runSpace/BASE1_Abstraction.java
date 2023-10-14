@@ -1,0 +1,31 @@
+package runSpace;
+
+import classSource.Rock;
+
+public class BASE1_Abstraction {
+	public static void main(String[] args) {
+		// 여기서 객체를 만들어 씀
+		
+		// 객체의 생성 : 클래명 객체명 = new 클래스명();
+		Rock jjang1 = new Rock();
+		Rock jjang2 = new Rock();
+		// -------- 객체로 취급됨
+		jjang1.material = "현무암";	// 필드의 사용
+		jjang1.shape = "매끈한 원형";	// 객체명.필드명
+		jjang1.weight = 1.3;		// 변수로써 쓰는 것
+		// -------- jjang1은 인스턴스가 됨
+		
+		// 객체는 새로 만들었다면 공유되지 않음
+		// - 클래스는 객체를 만들기 위한 설계도로만 사용됨
+		// - 만들어진 객체를 사용하기 위한 설계도
+		jjang2.weight = 0.5;
+		System.out.println(jjang1.weight);
+		System.out.println(jjang2.weight);
+	}
+}
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+package classSpace;
+
+public class Robot {
+	private String name;
+	public Robot() {
+		name = "로봇";
+	}
+	// A.B(C,D)
+	// -> A가 D에게 C를 이용해서 B한다.
+	public void rename(String newName, Rock that) {
+		that.setName(newName);
+	}
+	public void rename(Rock that, String newName) {
+		that.setName(newName);
+	}
+}

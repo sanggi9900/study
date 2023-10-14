@@ -1,0 +1,11 @@
+package part1;
+
+public class MethodEX1 {
+	// 기본 메서드는 예외적으로 명사가 자주 사용됨
+	public static void calculator() {
+		Scanner sc = new Scanner(System.in);
+	}
+	public static void main(String[] args) {
+		calculator();
+	}
+}

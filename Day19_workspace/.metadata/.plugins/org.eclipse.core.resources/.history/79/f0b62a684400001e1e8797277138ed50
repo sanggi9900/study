@@ -1,0 +1,30 @@
+package space2;
+
+import space1.Throwable;
+import space1.AbsBox;
+import space1.ValueBox;
+
+public class InterfaceClass {
+	public void test() {}
+	public static void main(String[] args) {
+		// 인터페이스 : 명칭은 인터페이스이고, 클래스(class)의 종류 중 하나
+		//          필드가 존재하지 않는 추상 클래스
+		// - 객체의 사용(상호작용방식)을 통일시켜줌
+		// - 업캐스팅 가능한 범위를 늘릴 수 있음
+		
+		// 주의사항 : 인터페이스의 필드는 공용필드이니 주의
+		ValueBox box1 = new ValueBox("상자", 100);
+		box1.underThrow();
+		box1.overThrow();
+		AbsBox box2 = box1;
+		box2.printInfo();
+		Throwable box3 = box1;
+		box3.underThrow();
+	}
+}
+
+
+
+
+
+

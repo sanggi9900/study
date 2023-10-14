@@ -1,0 +1,13 @@
+package base3;
+
+public class Operator2 {
+	public static void main(String[] args) {
+		// 산술연산시 주의사항
+		// 1) 나누기 / 나머지는 죽었다 깨어나도 못하는 연산이 존재함
+		// - 두번째(나누는 숫자)가 0인 경우
+		// System.out.println(3/0);		정수끼리는 에러가 발생함
+		// System.out.println(3.0/0);	실수가 있으면 infinity라는 값이 뛰어나옴
+
+		// 2) 나머지는 내부에서 뺄셈처리하지만, 부호를 주의해야 함
+	}
+}

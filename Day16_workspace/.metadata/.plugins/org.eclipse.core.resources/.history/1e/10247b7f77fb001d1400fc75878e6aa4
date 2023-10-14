@@ -1,0 +1,11 @@
+package runSpace;
+
+import classSpace.Robot;
+import classSpace.Rock;
+
+public class INTERACTION_EX2 {
+	public static void main(String[] args) {
+		Robot robot = new Robot();
+		Rock 
+	}
+}

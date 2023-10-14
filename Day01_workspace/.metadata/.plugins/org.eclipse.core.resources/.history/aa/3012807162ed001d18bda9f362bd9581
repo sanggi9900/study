@@ -1,0 +1,15 @@
+package base1;
+
+public class Base2 {
+	public static void main(String[] args) {
+		// 변수 : 자료(값)를 저장하기 위한 공간
+		// 카멜표기법 : 단어가 바뀔 때 대문자로 시작함
+		
+		// boolean : 논리값을 저장하기 위함
+		// - JAVA의 각종 논리연산의 결과물
+		boolean isTrue;
+		boolean isFalse = false; // true / false
+		// short : 정수값 -32768 ~ +32767
+		short count = 100;
+	}
+}

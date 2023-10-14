@@ -1,0 +1,23 @@
+package forstatement;
+
+public class For1 {
+	public static void main(String[] args) {
+		// 유한반복 : for반복문을 주로 이용함
+		// 시작 / 끝 / 변화 / 할 일
+		// - 내부에서 반복중에 수행하는 것에 아주 관심이 많음
+		// - 그 반복은 "몇번" 수행하게 되는가?
+		
+		// 1부터 10까지 출력함
+		int num1 = 1;
+		while (num1 <= 10) {
+			System.out.print(num1 + " ");
+			num1 += 1;
+		} System.out.println();
+		
+		// 3부터 9까지 3의 배수만 출력함
+		
+		while () {
+			
+		}
+	}
+}

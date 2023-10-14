@@ -1,0 +1,17 @@
+package classSource;
+
+public class Bird {
+	private String name;
+	private String species;
+	private boolean isFlying;
+	
+	public void takeoff() {
+		if (!isFlying)
+	}
+	public void landing() {
+		
+	}
+	public void fly() {
+		
+	}
+}

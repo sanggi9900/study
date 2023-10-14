@@ -1,0 +1,12 @@
+package classSource;
+
+public class Box2 {
+	public String name;
+	public boolean state;
+	public void open() {
+		state = true;
+	}
+	public void close() {
+		state = false;
+	}
+}

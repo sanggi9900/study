@@ -1,0 +1,21 @@
+package classSpace;
+
+public class WordBox extends Box {
+	// 주의사항 - 문자열은 참조형입니다.
+	private String data;
+	// 1) 생성자는 얼마나 몇개나 필요할까?
+	// - 기본생성자
+	//   - 값이 없어도 상관없는 객체를 만들겠다
+	public WordBox(String name, String data) {
+		super(new String(name));
+		this.data = new String(data);
+	}
+	// 2) 메서드는 기본적인 것은 Box에서 제공됨
+	// -> data에 관여하는 메서드만 준비함
+	public void setData(String word) {
+		
+	}
+	public String getData() {
+		
+	}
+}

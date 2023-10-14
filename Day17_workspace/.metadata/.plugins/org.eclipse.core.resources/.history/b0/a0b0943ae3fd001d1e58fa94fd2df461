@@ -1,0 +1,49 @@
+package classSpace;
+// 상속을 할 때 주의할 사항
+// 1. 부모 클래스와 자식 클래스라는 개념이 존재함
+// - 부모 : 상속받을 
+public class IntBox {
+	private String name;
+	private boolean state;
+	private int data;
+	
+	public IntBox() {
+		this("정수상자");
+	}
+	public IntBox(String name) {
+		this.name = name;
+		state = false;
+		data = 0;
+	}
+	public IntBox(IntBox that) {
+		this.name = new String(that.name);
+		this.state = that.state;
+		this.data = that.data;
+	}
+	
+ 	public void setName(String name) {
+		this.name = name;
+	}
+ 	public void setData(int data) {
+ 		if (state) this.data = data;
+ 		else return;
+ 	}
+	
+	public String getName() {
+		return name;
+	}
+	public boolean getState() {
+		return state;
+	}
+	public int getData() {
+		if (state) return this.data;
+		else return 0;
+	}
+
+	public void open() {
+		if (!state) state = true;
+	}
+	public void close() {
+		if (state) state = false;
+	}
+}

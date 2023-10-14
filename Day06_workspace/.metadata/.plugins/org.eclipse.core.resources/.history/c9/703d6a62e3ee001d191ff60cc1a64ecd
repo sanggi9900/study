@@ -1,0 +1,9 @@
+package base3;
+
+public class ReviewEX {
+	public static void main(String[] args) {
+		// 복습문제
+		// 1) 화면에 보이는 소스코드를 토대로 패키지를 추가하고 소스파일을 생성하세요.
+		
+	}
+}

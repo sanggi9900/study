@@ -1,0 +1,12 @@
+package base2;
+
+import java.util.Scanner; // ctrl + shift + o
+
+public class Base6 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		// 문자 입력 - 존재하지 않음
+		
+	}
+}

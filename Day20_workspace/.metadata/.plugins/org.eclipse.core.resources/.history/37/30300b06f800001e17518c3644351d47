@@ -1,0 +1,8 @@
+package space2;
+
+public class FinalEX {
+	public static void main(String[] args) {
+		// 실습
+		// 추상클래스 Body
+	}
+}

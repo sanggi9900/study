@@ -1,0 +1,49 @@
+package runSpace;
+
+import classSource.Human;
+
+public class BASE4_EX {
+	public static void main(String[] args) {
+		// 실습1
+		// Human 클래스를 정의하세요.
+		// 특성 : 이름, 역할, 나이
+		// 동작 : 인사하기(greeting), 행동하기(action)
+		
+		// 실습2
+		// 정의한 클래스를 이용하여 객체를 만들고
+		// 해당 객체를 사용해보세요.
+		// 어떻게 사용할지는 자유입니다.
+		Human person1 = new Human();
+		Human hong = new Human("홍길동", 28);
+		Human go = new Human("고길동", "팀장", 45);
+		person1.greeting();
+		hong.greeting();
+		go.greeting();
+		System.out.printf("%s %s %d\n",
+				person1.getName(),
+				person1.getRoll(),
+				person1.getAge()
+				);
+		hong.setRoll("의적");
+		System.out.printf("%s %s %d\n",
+				hong.getName(),
+				hong.getRoll(),
+				hong.getAge()
+				);
+		System.out.printf("%s %s %d\n",
+				go.getName(),
+				go.getRoll(),
+				go.getAge()
+				);
+	}
+}
+
+
+
+
+
+
+
+
+
+

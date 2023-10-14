@@ -1,0 +1,8 @@
+package runSpace;
+
+public class ActionEX2 {
+	public static void main(String[] args) {
+		// 실습
+		// Human 클래스의 action 메서드를 
+	}
+}

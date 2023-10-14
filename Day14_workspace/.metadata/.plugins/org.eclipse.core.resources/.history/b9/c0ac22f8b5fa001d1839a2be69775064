@@ -1,0 +1,24 @@
+package classSource;
+
+public class Human {
+	private String name;
+	private String roll;
+	private int age;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setRoll(String roll) {
+		this.roll = roll;)
+	}
+	public void setAge(String name) {
+		this.name = name;
+	}
+	
+	public void greeting() {
+		
+	}
+	public void action() {
+		
+	}
+}

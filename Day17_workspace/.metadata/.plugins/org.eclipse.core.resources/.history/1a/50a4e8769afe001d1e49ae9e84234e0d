@@ -1,0 +1,9 @@
+package runSapce;
+
+public class InheritanceEX {
+	public static void main(String[] args) {
+		// 실습
+		// IntBox 클래스를 참고해서
+		// 단어를 저장할 수 있는 
+	}
+}

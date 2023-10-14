@@ -1,0 +1,25 @@
+package forstatement;
+
+public class For1 {
+	public static void main(String[] args) {
+		// 유한반복 : for반복문을 주로 이용함
+		// 시작 / 끝 / 변화 / 할 일
+		// - 내부에서 반복중에 수행하는 것에 아주 관심이 많음
+		// - 그 반복은 "몇번" 수행하게 되는가?
+		int num1 = 1;
+		while (num1 <= 10) {
+			System.out.print(num1 + " ");
+			num1 += 1;
+		} System.out.println();
+		
+		// 유한반복시 주의사항 : 변화량 파악을 실수하는 경우
+		// - 반복횟수가 지나치게 많아짐
+		// - 내부에서 숫자를 골라내는 것은, 한 종류 이상의 것이 필요할 때 하게 됨
+		//   ex) 3의 배수이거나, 5의 배수인 것
+		num3
+		while (num1 <= 9) {
+			System.out.print(num1 + " ");
+			num1 += 3;
+		}
+	}
+}

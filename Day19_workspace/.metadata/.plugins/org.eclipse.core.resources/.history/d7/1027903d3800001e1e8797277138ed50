@@ -1,0 +1,6 @@
+package space1;
+
+public class House extends AbsBox {
+	private String[] space;
+	
+}

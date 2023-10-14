@@ -1,0 +1,17 @@
+package forstatement;
+
+import java.util.Scanner;
+
+public class ForEX4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = -1;
+		while (true) {
+			System.out.println("입력횟수 >> ");
+			num = sc.nextInt();
+			if (num < 0) System.out.println("재입력하세요.");
+			else break;
+		}
+		
+	}
+}

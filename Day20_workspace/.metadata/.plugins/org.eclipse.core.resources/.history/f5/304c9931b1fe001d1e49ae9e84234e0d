@@ -1,0 +1,11 @@
+package classSpace;
+
+public class Doctor extends Human {
+	private String part;
+	public Doctor(String name, String part) {
+		this.name = name;
+		roll = "ÀÇ»ç";
+		age = 0;
+		this.part = part;
+	}
+}

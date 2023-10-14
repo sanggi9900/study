@@ -1,0 +1,33 @@
+package ifstate;
+
+import java.util.Scanner;
+
+public class IfEXB {
+	// 복습문제
+	// 가게에 만두를 주문했을 때 수량에 따른 견적을 출력하는 코드를 하세요.
+	// 100개 미만은 할인율이 없습니다.
+	// 200개 미만은 할인율이 15%입니다.
+	// 300개 미만은 할인율이 30%입니다.
+	// 300개 이상은 할인율이 35%입니다.
+	// 만두의 개당 가격은 900원입니다.
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("만두의 수량을 입력하세요 > ");
+		int count = sc.nextInt();
+		
+		int cost = count * 900;
+		if (count >= 300) cost *= 0.65;
+		else if (count >= 200) cost *= 0.7;
+		else if (count >= 100) cost = (int)(cost * 0.85);
+				
+		System.out.println("예상 견적 : " + cost + "원");
+	}
+}
+
+
+
+
+
+
+
+

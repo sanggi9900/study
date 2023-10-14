@@ -1,0 +1,5 @@
+package base3;
+
+public class OperatorEX1 {
+	public static void main(String[] args) {}
+}

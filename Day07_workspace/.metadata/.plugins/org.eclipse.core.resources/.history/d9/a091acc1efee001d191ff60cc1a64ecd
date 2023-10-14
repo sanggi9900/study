@@ -1,0 +1,8 @@
+package base3;
+
+public class OperatorEX2 {
+	public static void main(String[] args) {
+		// 실습2
+		// - 실수값을 하나만 입력을 받아서
+	}
+}

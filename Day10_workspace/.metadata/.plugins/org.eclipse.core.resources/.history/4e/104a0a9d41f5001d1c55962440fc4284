@@ -1,0 +1,31 @@
+package part2;
+
+public class MethodEX4 {
+	public static int getQuot(int n1, int n2) {
+		// 순수 연산만 하는 메서드에서 0은 크게 2가지를 의미함
+		// 1) 연산결과가 진짜로 0이 나옴
+		// 2) 이 연산은 진행할 수 없는 종류의 연산
+		if (n2 == 0) return 0;
+		else return n1 / n2;
+	}
+	public static int getExpo(int n1, int n2) {
+		// 거듭제곱은 제대로 계산할려면 실수값이 원래 맞음
+		if (n2 < 0) return 0;
+		else {
+			int result = 1;
+			while (n2 > 0) {}
+			result *= n1;
+		}
+	}
+	public static void main(String[] args) {
+		// 실행코드
+		int result1 = getQuot(10, 3);
+		int result2 = getQuot(10, 0);
+		int result3 = getExpo(2, 3);
+		int result4 = getExpo(2, -1);
+		System.out.println("몫1 : " + result1);
+		System.out.println("몫2 : " + result2);
+		System.out.println("거듭제곱1 : " + result3);
+		System.out.println("거듭제곱2 : " + result4);
+	}
+}

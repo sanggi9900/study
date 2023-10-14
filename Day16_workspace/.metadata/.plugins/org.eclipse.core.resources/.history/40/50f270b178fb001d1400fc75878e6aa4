@@ -1,0 +1,11 @@
+package classSpace;
+
+public class Rock {
+	private String name;
+	public Rock() {
+		name = "Â¯µ¹";
+	}
+	void setName() {
+		
+	}
+}

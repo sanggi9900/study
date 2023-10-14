@@ -1,0 +1,7 @@
+package space2;
+
+public class InterfaceClass {
+	public static void main(String[] args) {
+		// 인터페이스 : 명칭은 인터페이스이고, 클래스(class)로 분류됨 
+	}
+}

@@ -1,0 +1,33 @@
+package part2;
+
+import java.util.Scanner;
+
+public class MethodEXA {
+	// 복습문제
+	// 1) 정수값을 하나 입력을 받고, 그 값이 홀수인지 짝수인지 여부를 반환하는
+	//    정적 메서드를 정의하세요.
+	//    메서드명은 function1로 합니다.
+	// 2) 정수값을 하나 입력을 받고, 그 정수의 약수의 수량을 구하여 반환하는
+	//    정적 메서드를 정의하세요.
+	//    메서드명은 function2로 합니다.
+	public static boolean function1() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("짝홀판별기 >> ");
+		int num = sc.nextInt();
+		if (num % 2 == 0) return true;
+		else return false;
+	}
+	public static int function2() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("약수의 수량 >> ");
+		
+	}
+	public static void main(String[] args) {
+		// 실행 코드
+		boolean result = function1();
+		System.out.println("결과 : " + result);
+		
+		int count = function2();
+		System.out.println("결과 : " + count + "개");
+	}
+}

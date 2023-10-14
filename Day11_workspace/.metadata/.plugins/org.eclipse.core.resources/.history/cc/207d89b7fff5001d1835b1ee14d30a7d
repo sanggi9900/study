@@ -1,0 +1,9 @@
+package part3;
+
+public class OverloadEX3 {
+	public static void main(String[] args) {
+		showNumber(6);
+		showNumber(2,7);
+		showNumber(1,12,2);
+	}
+}

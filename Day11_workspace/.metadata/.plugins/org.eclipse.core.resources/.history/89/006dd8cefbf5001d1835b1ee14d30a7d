@@ -1,0 +1,8 @@
+package part3;
+
+public class OverloadEX2 {
+	public static void main(String[] args) {
+		int result1 = getSum(-5);
+		int result2 = getSum(15);
+	}
+}

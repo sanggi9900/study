@@ -1,0 +1,19 @@
+package whilestate;
+
+import java.util.Scanner;
+
+public class WhileEXA {
+	public static void main(String[] args) {
+		// while 추가문제
+		// 정수 2개를 입력을 받아서 첫번째를 두번째로 나눈 몫을 출력하는 반복문을
+		// 구성하세요.
+		// 단, 2번째 정수가 0인 경우에는 반복이 종료됩니다.
+		Scanner sc = new Scanner(System.in);
+		System.out.print("정수 2개 입력 >> ");
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		if (num2 != 0) {}
+		System.out.println("결과 : " + (num1 / num2));
+		
+	}
+}

@@ -1,0 +1,22 @@
+package classSource;
+
+public class Bird {
+	private String name;
+	private String species;
+	private boolean isFlying;
+	
+	public void takeoff() {
+		if (!isFlying) isFlying = true;
+	}
+	public void landing() {
+		if (isFlying) isFlying = false;
+	}
+	public void fly() {
+		if (isFlying) {
+			System.out.println(name+"가 날고 있어요!");
+		}
+		else {
+			System.out.println(name+"는")
+		}
+	}
+}

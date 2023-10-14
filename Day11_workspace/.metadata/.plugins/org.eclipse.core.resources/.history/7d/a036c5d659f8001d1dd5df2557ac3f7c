@@ -1,0 +1,28 @@
+package part2;
+
+import java.util.Scanner;
+
+public class ArrayEX3 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// 배열은 크기가 바뀌어도 연동이 되어야 한다
+		// -> 크기가 반영될 수 있는 곳에는 몽땅 반영해야 함
+		int[] arr = new int[6];
+		
+		for (int i = 0; i < arr.length; i += 1) {
+			System.out.print((i+1)+"번 값 >> ");
+			arr[i] = sc.nextInt();
+		}
+		
+		int result = 0;
+		for (int i = 0; i < arr.length; i += 1) {
+			result += arr[i];
+		}
+		
+		System.out.print("값 : ");
+		for (int i = 0; i < arr.length; i += 1) {
+			System.out.println(arr[i] + " ");
+		} System.out.println("\n합  : " + result);
+		System.out.printf("평균  : %.1f\n", result / (double)arr.length);
+	}
+}

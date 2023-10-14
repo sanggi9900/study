@@ -1,0 +1,16 @@
+package part3;
+
+public class Overload1 {
+	public static int getExpo(int n1, int n2) {
+		// 거듭제곱은 제대로 계산할려면 실수값이 원래 맞음
+		if (n2 < 0) return 0;
+		else {
+			int result = 1;
+			while (n2 > 0) {
+				result *= n1;
+				n2 -= 1;
+			}
+			return result;
+		}
+	}
+}

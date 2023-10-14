@@ -1,0 +1,9 @@
+package space2;
+
+public class AbstractClass {
+	public static void main(String[] args) {
+		// 추상클래스 : 큰 틀을 제공함
+		// - 상속을 전제로 하는 클래스
+		House 
+	}
+}

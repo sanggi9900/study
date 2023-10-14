@@ -1,0 +1,16 @@
+package classSource;
+
+public class Box2 {
+	private String name;
+	private boolean state;
+	
+	public void setName() {}
+	
+	
+	public void open() {
+		state = true;
+	}
+	public void close() {
+		state = false;
+	}
+}

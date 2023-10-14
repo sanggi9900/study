@@ -1,0 +1,14 @@
+package base3;
+
+public class Operator1 {
+	public static void main(String[] args) {
+		// 산술연산자 : 숫자를 대상으로 할 때는 수학적인 연산을 지시함
+		int num1 = 10;
+		int num2 = 3;
+		System.out.println("결과1 : " + num1 + num2);
+		System.out.println("결과2 : " + num1 - num2);
+		System.out.println("결과3 : " + num1 * num2);
+		System.out.println("결과4 : " + num1 / num2);
+		System.out.println("결과5 : " + num1 % num2);
+	}
+}

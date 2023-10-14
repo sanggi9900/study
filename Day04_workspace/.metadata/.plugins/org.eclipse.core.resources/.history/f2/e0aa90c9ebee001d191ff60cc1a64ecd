@@ -1,0 +1,9 @@
+package base3;
+
+public class OperatorEX1 {
+	public static void main(String[] args) {
+		// 실습1
+		// 3개의 실수를 입력을 받아 저장하고
+		// 3개의 실수값들의 평균을 출력하세요.
+	}
+}

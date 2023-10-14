@@ -1,0 +1,9 @@
+package part2;
+
+public class Method4 {
+	// 4) 반환과 매개변수가 있는 메서드 : 반환이 있을 때 주의사항 + 매개변수가 있을 때 주의사항
+	// - 제일 많이 만들어 쓰는 메서드
+	public static void main(String[] args) {
+		
+	}
+}

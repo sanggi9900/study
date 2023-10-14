@@ -1,0 +1,9 @@
+package classSpace;
+
+public class Doctor extends Human {
+	
+	public Doctor() {
+		roll = "ÀÇ»ç";
+		age = 0;
+	}
+}

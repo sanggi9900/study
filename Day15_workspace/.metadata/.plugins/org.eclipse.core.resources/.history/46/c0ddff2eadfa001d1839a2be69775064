@@ -1,0 +1,9 @@
+package runSpace;
+
+public class BASE4_EX {
+	public static void main(String[] args) {
+		// 실습
+		// Human 클래스를 정의하세요.
+		// 특성 : 이름, 역할, 
+	}
+}

@@ -1,0 +1,9 @@
+package part2;
+
+public class Method3 {
+	// 3) 매개변수가 있는 메서드
+	// - 매개변수 자리에는 void를 채울 수 없음. 비워둘 수 있음.
+	public static void main(String[] args) {
+		
+	}
+}

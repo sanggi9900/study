@@ -1,0 +1,7 @@
+package part2;
+
+public class ArrayEX2 {
+	public static void main(String[] args) {
+		char[]  arr = new char[4];
+	}
+}

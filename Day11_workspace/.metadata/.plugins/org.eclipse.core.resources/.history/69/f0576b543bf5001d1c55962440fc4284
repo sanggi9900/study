@@ -1,0 +1,13 @@
+package part2;
+
+public class Method4 {
+	// 4) 반환과 매개변수가 있는 메서드 : 반환이 있을 때 주의사항 + 매개변수가 있을 때 주의사항
+	// - 제일 많이 만들어 쓰는 메서드
+	// - 매개변수는 코드의 동작을 바꾸는 옵션처럼 사용될 수 있음
+	// - 반환은 코드의 동작여부를 체크할 수 있는 상태값으로 사용될 수 있음
+	public static boolean program()
+	
+	public static void main(String[] args) {
+		
+	}
+}

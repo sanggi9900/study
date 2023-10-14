@@ -1,0 +1,44 @@
+package part3;
+
+import java.util.Scanner;
+
+public class REF1 {
+	public static int input() {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		return num;
+	}
+	
+	public static void input_arr(int[] arr) {
+		arr[0] = 1;
+		arr[1] = 9;
+		arr[2] = 3;
+	}
+	
+	public static void main(String[] args) {
+		// 참조형 - 무조건 공유가 됨
+		// - 메서드에 적용시켰을 때 주의사항
+		// - 반환이 있을 수 있고 없을 수 있음
+		
+		// 원시자료형값을 어딘가에 전달하거나 이용할 경우, 복사(반환/매개변수)를 통해 전달받고 전달한다.
+		int num = input();
+		System.out.println(num);
+		
+		// 비원시자료형은 어딘가에 전달하거나 이용할 경우, 이름표를 붙여서 이용하는 방식이다.
+		// - 생성되는 위치는 메서드 내부가 아니라, 메서드보다 더 넓은 외부에서 생성됨
+		// 1) 반환이 없는데 반환됨
+		int[] arr = new int[3];
+		input_arr(arr);
+		System.out.println("");
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+package classSpace;
+
+public class Tank {
+	private String name;
+	private int hp;
+	private int atk;
+	
+	public Tank(String name, int hp, int atk) {
+		this.name = name;
+		this.hp = hp;
+		this.atk = atk;
+	}
+	
+	public String getName() { return name; }
+	public int getHP() { return hp; }
+	public int getAtk() { return atk; }
+	
+	// setName ÆĞ½º : ¿øº» ÅÊÅ©ÀÇ ¸ğµ¨ÀÌ ¹ºÁö ¸ğ¸£°Ô µÊ
+	// setHP ÆĞ½º : 
+	
+	void attackTo() {
+		
+	}
+	void report() {
+		
+	}
+}

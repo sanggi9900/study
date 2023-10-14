@@ -1,0 +1,11 @@
+package runSpace;
+
+import classSource.Rock;
+
+public class BASE1_Abstraction {
+	public static void main(String[] args) {
+		// ¿©±â¼­ °´Ã¼¸¦ ¸¸µé¾î ¾¸
+		Rock jjang1 = new Rock();
+		Rock jjang2 = new Rock();
+	}
+}

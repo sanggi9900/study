@@ -1,0 +1,6 @@
+package base2;
+
+public class Base6 {
+	public static void main(String[] args) {}
+
+}

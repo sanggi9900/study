@@ -1,0 +1,23 @@
+package forstatement;
+
+import java.util.Scanner;
+
+public class ForEX4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = -1;
+		while (true) {
+			System.out.println("입력횟수 >> ");
+			num = sc.nextInt();
+			if (num < 0) System.out.println("재입력하세요.");
+			else break;
+		}
+		double result = 0;
+		for (int x = 1; x <= num; x += 1) {
+			System.out.print(x +"번 실수값 >> ");
+			result += sc.nextDouble();
+		}
+		System.out.println("값들의 합 : " + result);
+		
+	}
+}

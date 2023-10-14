@@ -1,0 +1,7 @@
+package runSpace;
+
+public class BASE2_EX {
+	public static void main(String[] args) {
+		
+	}
+}

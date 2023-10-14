@@ -1,0 +1,8 @@
+package part2;
+
+public class Method3 {
+	// 3) 
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package classSpace;
+
+public class Actor extends Human {
+	public Actor(String name) {
+		// 기본 생성자가 없으면 무조건 부모 생성자를 호출해야 함
+		super(name, "배우", 0);
+		this.name = name;
+		this.roll = "배우";
+		this.age = 0;
+	}
+}

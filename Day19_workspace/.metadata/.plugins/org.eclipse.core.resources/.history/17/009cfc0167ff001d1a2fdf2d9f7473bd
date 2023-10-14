@@ -1,0 +1,33 @@
+package runSapce;
+
+import classSpace.Doctor;
+import classSpace.Human;
+
+public class Upcast {
+	public static void main(String[] args) {
+		// 상속을 통해 정의된 클래스로 만들어진 객체의 캐스팅
+		// UPCASTING : 자식 객체를 부모 참조변수로 취급하기
+		Doctor doc1 = new Doctor("김길동", "흉부외과");
+		Doctor doc2 = new Doctor("고대기", "정형외과");
+		Human pat1 = new Human("김아픔", "환자", 32);
+		
+		Human pat2 = doc2; // 업캐스팅 코드 : 부모 참조변수 = 자식객체
+		// 오버라이딩된 메서드는 오버라이딩된 동작을 그대로 수행함
+		System.out.println(pat2.getName());
+		System.out.println(pat2.getRoll());
+		// Doctor클래스에서 추가한 메서드는 사용할 수 없게 됨
+		pat2.greeting();
+		// + 패키지와 접근제어로 정교하게 조정하면
+		//   메서드의 동작을 더 정교하게 통제할 수 있음
+		doc1.greeting(pat2);
+		
+		// DOWNCASTING : 그렇게 취급하던 객체를 다시 원래 상태로 복원시키기
+		
+	}
+}
+
+
+
+
+
+

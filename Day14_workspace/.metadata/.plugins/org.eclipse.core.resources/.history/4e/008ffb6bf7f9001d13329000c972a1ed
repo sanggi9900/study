@@ -1,0 +1,37 @@
+package classSource;
+
+public class Box3 {
+	private String name;
+	private boolean state;
+	
+	public Box3() {
+		
+	}
+	
+ 	public void setName(String name) {
+		this.name = name;
+	}
+	public void setState(boolean state) {
+		this.state = state;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public boolean getState() {
+		return state;
+	}
+
+	public void open() {
+		if (!state) state = true;
+	}
+	public void close() {
+		if (state) state = false;
+	}
+}
+
+
+
+
+
+

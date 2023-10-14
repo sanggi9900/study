@@ -1,0 +1,47 @@
+package classSpace;
+
+public class Box {
+	private String name;
+	private boolean state;
+	
+	public Box() {
+		this("포장용 상자");
+	}
+	public Box(String name) {
+		this.name = name;
+		state = false;
+	}
+	// 복사 생성자
+	// - 필드에 참조형이 있을 경우
+	//   해당 필드를 복사하여 같은 값이지만
+	//   서로 다른 객체로 만들어내기 위함
+	// - 비원시 필드는 공유되면 골치아프니 주의
+	public Box(Box that) {
+		this.name = new String(that.name);
+		this.state = that.state;
+	}
+	
+ 	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public boolean getState() {
+		return state;
+	}
+
+	public void open() {
+		if (!state) state = true;
+	}
+	public void close() {
+		if (state) state = false;
+	}
+}
+
+
+
+
+
+

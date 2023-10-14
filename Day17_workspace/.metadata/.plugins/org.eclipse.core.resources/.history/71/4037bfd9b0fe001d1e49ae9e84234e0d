@@ -1,0 +1,15 @@
+package classSpace;
+
+public class Doctor extends Human {
+
+	public Doctor(String name, int age) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Doctor(String name, String roll, int age) {
+		super(name, roll, age);
+		// TODO Auto-generated constructor stub
+	}
+
+}

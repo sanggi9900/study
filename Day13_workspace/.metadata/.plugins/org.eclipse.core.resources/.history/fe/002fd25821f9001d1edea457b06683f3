@@ -1,0 +1,8 @@
+package runSpace;
+
+public class BASE1_EX {
+	public static void main(String[] args) {
+		// 실습
+		// - 우리는 여기서 상자와 상자를 다루는 사람을 만들겁니다.
+	}
+}

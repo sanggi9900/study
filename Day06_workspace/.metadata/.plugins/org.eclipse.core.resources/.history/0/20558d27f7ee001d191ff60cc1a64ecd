@@ -1,0 +1,32 @@
+package base3;
+
+import java.util.Scanner;
+
+public class Operator3 {
+	public static void main(String[] args) {
+		// 관계연산자
+		int num1 = 10;
+		int num2 = 3;
+		System.out.println("결과1 : " + (num1 >  num2));
+		System.out.println("결과2 : " + (num1 >= num2));
+		System.out.println("결과3 : " + (num1 <  num2));
+		System.out.println("결과4 : " + (num1 <= num2));
+		System.out.println("결과5 : " + (num1 == num2));
+		System.out.println("결과6 : " + (num1 != num2));
+		// 주의사항1 - 원시자료형만 가능
+		System.out.println("A" == "A");
+		Scanner sc = new Scanner(System.in);
+		String word1 = sc.next();
+		String word2 = sc.next();
+		System.out.println(word1 == word2);
+		
+		// 논리연산자
+		
+	}
+}
+
+
+
+
+
+

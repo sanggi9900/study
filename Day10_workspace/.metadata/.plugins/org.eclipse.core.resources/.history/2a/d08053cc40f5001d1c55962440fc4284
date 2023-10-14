@@ -1,0 +1,21 @@
+package part2;
+
+public class MethodEX4 {
+	public static int getQuot(int n1, int n2) {
+		
+	}
+	public static int getExpo(int n1, int n2) {
+		
+	}
+	public static void main(String[] args) {
+		// ½ÇÇàÄÚµå
+		int result1 = getQuot(10, 3);
+		int result2 = getQuot(10, 0);
+		int result3 = getExpo(2, 3);
+		int result4 = getExpo(2, -1);
+		System.out.println("¸ò1 : " + result1);
+		System.out.println("¸ò2 : " + result2);
+		System.out.println("°ÅµìÁ¦°ö1 : " + result3);
+		System.out.println("°ÅµìÁ¦°ö2 : " + result4);
+	}
+}

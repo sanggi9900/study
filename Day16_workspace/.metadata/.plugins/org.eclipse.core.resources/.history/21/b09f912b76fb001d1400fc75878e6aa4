@@ -1,0 +1,9 @@
+package classSpace;
+
+public class Rock {
+	private String name;
+	public Rock() {
+		
+	}
+
+}

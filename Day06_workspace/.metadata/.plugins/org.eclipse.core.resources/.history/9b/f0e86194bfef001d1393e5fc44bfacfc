@@ -1,0 +1,7 @@
+package ifstate;
+
+public class If01 {
+	public static void main(String[] args) {
+		// 조건문 : 선별하여 골라내고 달리 처리하기 위한 제어문
+	}
+}

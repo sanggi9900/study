@@ -1,0 +1,7 @@
+// 한줄 주석
+/* 블럭 주석 */
+package base1; // 
+
+public class Base1 {
+
+}

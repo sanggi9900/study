@@ -1,0 +1,14 @@
+package part3;
+
+public class OverloadEX1 {
+	public static void main(String[] args) {
+		int result1 = function(10,20);
+		String result2 = function("A","B");
+		int result3 = function(3,4,5);
+		System.out.println(
+				"두 정수의 합 : " + result1
+				+"\n두 문자열의 합 : " + result2
+				+"\n"
+				);
+	}
+}

@@ -1,0 +1,30 @@
+package part3;
+
+public class Overload1 {
+	public static int getExpo1(int n1, int n2) {
+		if (n2 < 0) return 0;
+		else {
+			int result = 1;
+			while (n2 > 0) {
+				result *= n1;
+				n2 -= 1;
+			}
+			return result;
+		}
+	}
+	public static double getExpo2(double n1, int n2) {
+		if (n2 < 0) return 0;
+		else {
+			double result = 1;
+			while (n2 > 0) {
+				result *= n1;
+				n2 -= 1;
+			}
+			return result;
+		}
+	}
+	public static void main(String[] args) {
+		// 메서드의 반환형과 매개변수의 자료형은
+		// 1) 한쪽으로 몰아서 
+	}
+}

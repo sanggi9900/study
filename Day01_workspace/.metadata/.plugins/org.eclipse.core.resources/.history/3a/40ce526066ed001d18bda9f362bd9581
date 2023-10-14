@@ -1,0 +1,15 @@
+package base1;
+
+public class Base3 {
+	public static void main(String[] args) {
+		// JAVA의 출력은 문자열과 덧셈을 통해서 여러개를 출력할 수 있음
+		
+		// Sytem.out : System패키지에 있는 out 소스파일의 메서드를 이용해 출력함
+		// - print : 하나만 줄바꿈해주지 않고 출력
+		//   줄바꿈을 직접 제어하거나 필요없을 때 사용
+		int value1 = 123;
+		System.out.print("뭐든 던져주면 출력함 " + value1 + "\n");
+		// - println : 하나만 줄바꿈해주면서 출력
+		System.out.println("")
+	}
+}

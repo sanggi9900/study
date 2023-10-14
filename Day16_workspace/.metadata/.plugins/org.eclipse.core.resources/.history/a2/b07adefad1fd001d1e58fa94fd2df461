@@ -1,0 +1,10 @@
+package runSpace;
+
+public class FinalEX {
+	public static void main(String[] args) {
+		// 상호작용 복습문제
+		// 1) 탱크 클래스를 정의하세요.
+		// - 필드 : 탱크이름, 탱크체력, 공격력
+		// - 동작 : 대상공격, 
+	}
+}

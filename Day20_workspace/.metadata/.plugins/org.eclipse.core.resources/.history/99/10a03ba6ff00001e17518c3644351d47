@@ -1,0 +1,14 @@
+package data;
+
+public class Variables {
+	private int data1;
+	private int data2;
+	public Variables(int data1, int data2) {
+		this.data1 = data1;
+		this.data2 = data2;
+	}
+	public void set1(int value) {
+		data1 = value;
+	}
+	public void set2(int value) {}
+}

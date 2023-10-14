@@ -1,0 +1,8 @@
+package part2;
+
+public class MethodEX3 {
+	// 매개변수가 있는 메서드를 준비할 때 주의할 점
+	// - 적정수량의 매개변수만 준비하는게 좋음(최대 5개, 보통 3개 이하)
+	public static void main(String[] args) {	
+	}
+}

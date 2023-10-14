@@ -1,0 +1,10 @@
+package space2;
+
+public class AbstractEX {
+	public static void main(String[] args) {
+		// 실습
+		// AbsBox 추상 클래스를 상속받아서
+		// 실수값을 분해해서 저장하는 ValueBox를
+		// 정의하세요.
+	}
+}

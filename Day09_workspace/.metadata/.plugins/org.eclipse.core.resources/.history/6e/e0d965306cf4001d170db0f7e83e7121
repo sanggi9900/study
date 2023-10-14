@@ -1,0 +1,7 @@
+package part1;
+
+public class Method1 {
+	public static void main(String[] args) {
+		// 메서드 : 클래스파일 및 
+	}
+}

@@ -1,0 +1,16 @@
+package part3;
+
+public class REFEX2 {
+	
+	
+	
+	public static void main(String[] args) {
+		// 배열은 크기를 변동시킬 수 없음
+		// - 
+		int[] arr = new int[5];
+		inputArr(arr);
+		for (int i = 0; i < arr.length; i += 1) {
+			System.out.printf("값%d : %d\n", i + 1, arr[i]);
+		}
+	}
+}

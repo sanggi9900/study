@@ -1,0 +1,28 @@
+package classSpace;
+
+public class Tank {
+	private String name;
+	private int hp;
+	private int atk;
+	
+	public Tank(String name, int hp, int atk) {
+		this.name = name;
+		this.hp = hp;
+		this.atk = atk;
+	}
+	
+	public String getName() { return name; }
+	public int getHP() { return hp; }
+	public int getAtk() { return atk; }
+	
+	// setName 패스 : 원본 탱크의 모델이 뭔지 모르게 됨
+	// setHP 패스 : attackTo로 변하도록 할려고 함
+	// setAtk 패스 : 불변하는 것
+	
+	void attackTo() {
+		
+	}
+	void report() {
+		
+	}
+}

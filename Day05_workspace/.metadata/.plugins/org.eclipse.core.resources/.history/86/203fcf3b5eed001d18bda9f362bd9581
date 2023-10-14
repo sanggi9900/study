@@ -1,0 +1,11 @@
+// 한줄 주석
+/* 블럭 주석 */
+package base1; // 이 소스파일이 소속된 패키지명을 의미함
+
+// 자바소스파일을 만들면 반드시 붙게 되는 껍데기
+// - 클래스파일을 만들기 위한 서식
+public class Base1 {
+	public static void main(String[] args) {
+		
+	}
+}

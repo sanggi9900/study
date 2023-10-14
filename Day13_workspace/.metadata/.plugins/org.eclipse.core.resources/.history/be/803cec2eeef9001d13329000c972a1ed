@@ -1,0 +1,59 @@
+package classSource;
+
+// 생성자
+public class Rock3 {
+	private String material;
+	private String shape;
+	private double weight;
+	// 필드 아래, set/get/기능 위
+	// 생성자의 종류
+	// 1) 기본 생성자 : 기본값 설정 / 초기화
+	// - 없을 경우에는 객체 생성시에 반드시 값을 넣도록 강제함
+	public Rock3() {
+		material = "화강암";
+		shape = "흔한 모양";
+		weight = 0.5;
+	}
+	// 2) 일반 생성자 : 호출할 때 넣어준 값을 저장함
+	public Rock3() {
+		
+	}
+	
+	
+	public void setMaterial(String mat) {
+		material = mat;
+	}
+	public void setShape(String sha) {
+		shape = sha;
+	}
+	public void setWeight(double value) {
+		weight = value;
+	}
+	
+	public String getMaterial() {
+		return material;
+	}
+	public String getShape() {
+		return shape;
+	}
+	public double getWeight() {
+		return weight;
+	}
+	
+	public void canThrow() {
+		System.out.println("부우우웅~!");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+package classSpace;
+
+public class Doctor extends Human {
+	private String part;
+	public Doctor(String name, String part) {
+		super(name, )
+		this.part = part;
+	}
+}

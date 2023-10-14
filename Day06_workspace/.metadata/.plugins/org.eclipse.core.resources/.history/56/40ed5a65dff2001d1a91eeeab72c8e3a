@@ -1,0 +1,23 @@
+package whilestate;
+
+import java.util.Scanner;
+
+public class WhileEX1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// 크게 2가지 접근방식
+		int num1 = 0;
+		while (num1 % 2 == 0) {
+			System.out.print("홀수 입력 >> ");
+			num1 = sc.nextInt();
+		}
+		System.out.println("준비된 값 : " + num1);
+		
+		int num1 = 0;
+		while (num1 % 2 == 0) {
+			System.out.print("홀수 입력 >> ");
+			num1 = sc.nextInt();
+		}
+		System.out.println("준비된 값 : " + num1);
+	}
+}

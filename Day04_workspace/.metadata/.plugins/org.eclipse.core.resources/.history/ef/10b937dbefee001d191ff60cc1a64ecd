@@ -1,0 +1,13 @@
+package base3;
+
+public class OperatorEX2 {
+	public static void main(String[] args) {
+		// 실습2
+		// - 실수값을 하나만 입력을 받아서
+		// 정수부와 실수부를 나눠서 결과예시처럼 출력하세요.
+		
+		// 결과예시(3.98 입력시)
+		// 정수부 : 3
+		// 실수부 : 0.98
+	}
+}

@@ -1,0 +1,6 @@
+package classSpace;
+
+public class Robot {
+	private String name;
+	public Robot()
+}

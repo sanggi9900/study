@@ -1,0 +1,10 @@
+package runSpace;
+
+public class BASE3_Constructor {
+	public static void main(String[] args) {
+		// 생성자
+		// - 단 한번만 값을 채우면 되는 필드를 위해서 준비되는 메서드
+		// - setter의 준비가 줄어듬
+		// - 
+	}
+}

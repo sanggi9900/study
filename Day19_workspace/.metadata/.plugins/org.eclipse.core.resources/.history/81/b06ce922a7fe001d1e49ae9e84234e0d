@@ -1,0 +1,5 @@
+package classSpace;
+
+public class Actor extends Human {
+	public Actor()
+}

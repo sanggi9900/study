@@ -1,0 +1,30 @@
+package etc;
+
+import java.util.Scanner;
+
+public class SwitchEX {
+	public static void main(String[] args) {
+		// 스위치 제어문 : 선택에 극단적으로 집중된 제어문
+		// - if를 기반으로 한 선택의 문제 : 선택지가 많아지면 느리다.
+		// - 선택지가 많아져도 빠르게 동작할 수 있는 선택을 위한 제어문을 준비함.
+		
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			System.out.print("1, 2, 3, 4 >> ");
+			int menu = sc.nextInt();
+			// 스위치의 주의사항 : 일치여부를 기반으로 체크함
+			// - 선택지를 여러개 만들 수 있는 값 그자체를 요구함
+			switch(menu) {
+			
+			}
+			if (menu == 1) System.out.println("1번 출력!");
+			else if (menu == 2) System.out.println("2번 출력!!");
+			else if (menu == 3) System.out.println("3번 출력!!!");
+			else if (menu == 4) {
+				System.out.println("종료!!!!");
+				break;
+			}
+			else System.out.println("잘못된 선택!!!!");
+		}
+	}
+}

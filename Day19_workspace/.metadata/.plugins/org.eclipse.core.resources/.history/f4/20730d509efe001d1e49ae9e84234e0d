@@ -1,0 +1,7 @@
+package classSpace;
+
+public class WordBox extends Box {
+	// 주의사항 - 문자열은 참조형입니다.
+	private String data;
+	
+}

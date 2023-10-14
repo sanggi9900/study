@@ -1,0 +1,15 @@
+package part2;
+
+public class MethodEX4 {
+	public static void main(String[] args) {
+		// ½ÇÇàÄÚµå
+		int result1 = getQuot(10, 3);
+		int result2 = getQuot(10, 3);
+		int result3 = getExpo(2, 3);
+		int result4 = getExpo(2, -1);
+		System.out.println("¸ò1 : " + result1);
+		System.out.println("¸ò2 : " + result1);
+		System.out.println("°ÅµìÁ¦°ö1 : " + result1);
+		System.out.println("°ÅµìÁ¦°ö2 : " + result1);
+	}
+}

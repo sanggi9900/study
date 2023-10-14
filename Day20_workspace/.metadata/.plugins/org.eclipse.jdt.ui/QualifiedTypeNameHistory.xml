@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="classSource.Box"/>
+<fullyQualifiedTypeName name="classSource.Bird"/>
+<fullyQualifiedTypeName name="classSource.Box3"/>
+<fullyQualifiedTypeName name="classSpace.Robot"/>
+<fullyQualifiedTypeName name="classSpace.Box"/>
+<fullyQualifiedTypeName name="space1.Throwable"/>
+<fullyQualifiedTypeName name="space1.ValueBox"/>
+</qualifiedTypeNameHistroy>

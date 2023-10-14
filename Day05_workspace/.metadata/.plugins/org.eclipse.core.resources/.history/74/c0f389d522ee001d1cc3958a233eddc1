@@ -1,0 +1,33 @@
+package base2;
+
+public class OutputEX2 {
+	public static void main(String[] args) {
+		// 실습 - 서식문자 연습해보기
+		// %5.3f
+		// 5 : 5칸 확보후 우측정렬, 음수부호가 붙으면 좌측정렬.
+		// .3 : 소수점 3자리 반올림처리. 문자열이면 글자수 제한.
+		// f : 대상을 인식(해석)하는 방식
+		String word = "ApplePie";
+		double value = 3.345678;
+		// 실습 위의 변수들을 이용해 아래와 같이 출력하세요.
+		// ※ 서식문자과 서식지정자를 잘 활용하세요.
+		
+		// #    Apple#
+		System.out.printf("#%9.5s#\n", word);
+		// #Apple    #
+		System.out.printf("#%-9.5s#\n", word);
+		// #    3.346#
+		System.out.printf("#%9.3f#\n", value);
+		// #3.35     #
+		System.out.printf("#%9.3f#\n", value);
+		// #3.3   App#
+	}
+}
+
+
+
+
+
+
+
+

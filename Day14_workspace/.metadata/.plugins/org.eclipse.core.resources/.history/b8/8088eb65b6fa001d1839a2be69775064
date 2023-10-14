@@ -1,0 +1,32 @@
+package classSource;
+
+public class Human {
+	private String name;
+	private String roll;
+	private int age;
+	
+	public Human() {
+		name = "지나가던 아무개";
+	}
+	
+	public void setRoll(String roll) {
+		this.roll = roll;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public String getRoll() {
+		return roll;
+	}
+	public int getAge() {
+		return age;
+	}
+	
+	public void greeting() {
+		
+	}
+	public void action() {
+		
+	}
+}

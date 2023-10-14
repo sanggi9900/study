@@ -1,0 +1,9 @@
+package runSpace;
+
+public class BASE2_EX {
+	public static void main(String[] args) {
+		// 실습
+		// - Box2 클래스의 필드는 모두 public입니다.
+		//  접근제어를 설정해서 사용을 통제하세요.
+	}
+}

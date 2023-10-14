@@ -1,0 +1,21 @@
+package classSpace;
+
+// 제네릭 클래스 정의방법
+// - 정의하는 클래스의 이름 옆에 <E>를 추가함
+// - E : 자료형을 식별하기 위한 태그
+public class TypeBox<Type> extends Box {
+	private String data;
+	
+	public TypeBox(String name, String data) {
+		super(name);
+		this.data = data;
+	}
+	
+	public void setData(String word) {
+		if (state) data = word;
+	}
+	public String getData() {
+		if (state) return data;
+		else return "Unreadable";
+	}
+}

@@ -1,0 +1,8 @@
+package space1;
+
+// 클래스에 붙은 abstract 키워드
+// 1) 추상클래스를 식별하기 위한 정보
+// 2) 
+public abstract class AbsBox {
+	
+}

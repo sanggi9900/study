@@ -1,0 +1,10 @@
+package space2;
+
+public class InterfaceClass {
+	public static 
+	public static void main(String[] args) {
+		// 인터페이스 : 명칭은 인터페이스이고, 클래스(class)의 종류 중 하나
+		//           필드가 존재하지 않는 추상 클래스
+		// 주의사항 : 인터페이스의 필드는 공용필드이니 주의
+	}
+}

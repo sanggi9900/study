@@ -1,0 +1,8 @@
+package classSpace;
+
+public class Doctor extends Human {
+	
+	public Doctor(String name, int age) {
+
+	}
+}

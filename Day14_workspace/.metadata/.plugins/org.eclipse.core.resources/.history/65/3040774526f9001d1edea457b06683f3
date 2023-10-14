@@ -1,0 +1,6 @@
+package classSource;
+
+public class Box {
+	public String name;
+	public boolean state;
+}

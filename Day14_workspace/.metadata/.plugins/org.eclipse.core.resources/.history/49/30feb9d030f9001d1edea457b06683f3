@@ -1,0 +1,27 @@
+package classSource;
+
+public class Box2 {
+	private String name;
+	private boolean state;
+	
+	public void setName(String name) {
+		// this 접두사 - 메서드를  이용할려는 객체의
+		//             필드를 지정하기 위한 접두사
+		this.name = name;
+	}
+	public void setState(boolean state) {
+		this.state = state;
+	}
+	public String getName() {
+		return this.name;
+	}
+	public boolean getState() {
+		return state;
+	}
+	public void open() {
+		state = true;
+	}
+	public void close() {
+		state = false;
+	}
+}

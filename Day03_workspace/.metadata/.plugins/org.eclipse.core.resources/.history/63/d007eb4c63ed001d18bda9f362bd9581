@@ -1,0 +1,26 @@
+package base1;
+
+public class Base2 {
+	public static void main(String[] args) {
+		// 변수 : 자료(값)를 저장하기 위한 공간
+		// 카멜표기법 : 단어가 바뀔 때 대문자로 시작함
+		
+		// boolean : 논리값을 저장하기 위함
+		// - JAVA의 각종 논리연산의 결과물
+		boolean isTrue;
+		boolean isFalse = false; // true / false
+		
+		// 숫자계열 자료형
+		// short : 정수값 -32768 ~ +32767
+		short count = 100;
+		// int : 정수값 -21억 ~ +21억
+		int age = -65;
+		// long : 정수값 경단위의 정수값을 저장
+		long peopleCount = 158754123458l; // 소문자 l이 추가됨
+		// float : 실수값 소수점 6자리까지 보증함
+		float value1 = 3.14f; // 소문자 f가 추가됨
+		// double : 실수값 소수점 15자리까지 보증함
+		
+		
+	}
+}

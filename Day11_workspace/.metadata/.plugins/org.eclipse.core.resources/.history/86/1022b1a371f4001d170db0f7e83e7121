@@ -1,0 +1,9 @@
+package part1;
+
+public class Method2 {
+	public static void main(String[] args) {
+		// 메서드는 어딘가에 종속된 연결된 동작
+		// - 그것과 별개로 절차는 누락되면 안됨
+		// - 기본방식은, 
+	}
+}

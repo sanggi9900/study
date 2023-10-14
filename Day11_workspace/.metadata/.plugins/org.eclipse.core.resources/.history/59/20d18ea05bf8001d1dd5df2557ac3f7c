@@ -1,0 +1,13 @@
+package part2;
+
+import java.util.Scanner;
+
+public class ArrayEX4 {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		// 참고사항 : 자바의 배열은 생성시 자동으로 0으로 초기화됨
+		int[] arr = new int[8]; 
+		System.out.print("8개 과목의 점수를 입력하세요.\n>>");
+		
+	}
+}

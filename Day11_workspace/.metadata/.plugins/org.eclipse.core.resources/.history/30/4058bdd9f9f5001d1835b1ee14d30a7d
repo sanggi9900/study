@@ -1,0 +1,30 @@
+package part3;
+
+public class OverloadEX1 {
+	// 오버로딩에 영향을 미치는 요소
+	// 1) 매개변수의 수량
+	// - 수량이 다르면 자료형이 달라도 다른 메서드로 구별됨
+	// 2) 매개변수의 자료형
+	// - 자료형이 다르면 수량이 같아도 다른 메서드로 구분됨
+	public static int function(int n1, int n2) {
+		return n1 + n2;
+	}
+	public static String function(String s1, String s2) {
+		return s1 + s2;
+	}
+	public static int function(int n1, int n2, int 3) {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		int result1 = function(10,20);
+		String result2 = function("A","B");
+		int result3 = function(3,4,5);
+		System.out.println(
+				"두 정수의 합 : " + result1
+				+"\n두 문자열의 합 : " + result2
+				+"\n세 정수의 곱 : " + result3
+				);
+	}
+}

@@ -1,0 +1,9 @@
+package ifstate;
+
+public class If03 {
+	// ctrl + space : 자동완성목록 출력
+	// - 관용구를 설정해, 이를 호출할 수 있음
+	public static void main(String[] args) {
+		
+	}
+}
